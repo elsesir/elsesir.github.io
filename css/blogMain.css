@@ -115,6 +115,14 @@ div {
 a {
     text-decoration: none;
 }
+a:hover,a:active {
+    text-decoration: underline;
+}
+/*a[href^="http://www"] {*/
+    /*background: url(../images/tag05-1.png) no-repeat right top;*/
+    /*background-size: 10px;*/
+    /*padding-right: 10px;*/
+/*}*/
 ul {
     padding: 0;
     margin: 0;

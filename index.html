@@ -26,8 +26,14 @@
             <div id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
             <div id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
             <div id="e-mail" class="tagImg">{{ parsonInf.email }}</div>
-            <div id="github-address" class="tagImg"><a v-bind:href="parsonInf.github">{{ parsonInf.github }}</a></div>
-            <div id="blog-address" class="tagImg"><a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a></div>
+            <div title="GitHub地址" id="github-address" class="tagImg">
+                <a v-bind:href="parsonInf.github">
+                    {{ parsonInf.github }}
+                </a>
+            </div>
+            <div title="个人主页地址" id="blog-address" class="tagImg">
+                <a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a>
+            </div>
         </div>
     </div>
     <div id="main-part">
