@@ -1,1 +1,78 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>申阿瑟-个人网站</title>
+    <link href="css/blogMain.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="js/blogMain.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="title-part" class="borderSet">
+    <h1>个人简历</h1>
+</div>
+<div id="parson-page" class="borderSet">
+    <div id="information-part">
+        <div id="myphoto"></div>
+        <div id="self-information">
+            <div id="parson-name">{{ parsonInf.name }}</div>
+            <div id="sex-age-location" class="tagImg">
+                <div>{{ parsonInf.sex }}</div>
+                <div>{{ parsonInf.age }}</div>
+                <div>{{ parsonInf.location }}</div>
+            </div>
+            <div id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
+            <div id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
+            <div id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
+            <div id="e-mail" class="tagImg">{{ parsonInf.email }}</div>
+            <div id="github-address" class="tagImg"><a v-bind:href="parsonInf.github">{{ parsonInf.github }}</a></div>
+            <div id="blog-address" class="tagImg"><a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a></div>
+        </div>
+    </div>
+    <div id="main-part">
+        <div id="intention">
+            <p class="tagName">求职意向</p>
+            <p>前端工程师 广州</p>
+        </div>
+        <div id="self-assessment">
+            <p class="tagName">自我评价</p>
+            <p>做事认真，学习刻苦。有良好的学习能力，在校期间一直保持良好的成绩，
+            本科平均绩点3.50，名列专业前茅。硕士期间担任支部党支书职务，
+            有较强的执行和管理能力，易于融入集体。
+            对人诚恳友好，对工作认真负责，具有团队合作精神和创新意识。
+            </p>
+        </div>
+        <div id="education">
+            <p class="tagName">教育经历</p>
+            <p>2014.9 - 2017.6 浙江工业大学 软件工程 图像处理 学硕</p>
+            <p>2010.9 - 2014.6 上海电力学院 信息安全 本科</p>
+        </div>
+        <div id="academic_project">
+            <p class="tagName">学术项目</p>
+            <p>2014年-2017年    国家自然科学基金 浙江省自然科学基金</p>
+            <p>课题主题：生物群体行为语义模型研究及应用</p>
+            <p>项目描述：项目开发主要使用C++和openCV库，涉及图像处理，视频跟踪，行为分析，模式识别等方面。
+                主要负责将导师提出的算法通过C++编程实现，同时针对实验中一种误差提出了提出了消除算法，提高了整个系统的鲁棒性和精度，
+                并最终完成了系统实现，拟写两篇论文。
+            </p>
+        </div>
+        <div id="award">
+            <p class="tagName">获奖情况</p>
+            <ul>
+                <li>2015年  荣获浙江工业大学校一等学业奖学金</li>
+                <li>2014年  荣获上海市优秀毕业生</li>
+                <li>2013年  荣获上海市奖学金</li>
+                <li>2013年  获得上海电力学院校级一等奖学金</li>
+                <li>2012年  获得上海电力学院校级一等奖学金</li>
+                <li>2011年  获得上海电力学院校级一等奖学金</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="quote-information" class="borderSet">
+    <p>配色来自：<a href="http://www.peise.net/2017/0801/5771.html">http://www.peise.net/2017/0801/5771.html</a></p>
+    <p>图标来自：<a href="http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/">http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/</a></p>
+</div>
+</body>
+</html>

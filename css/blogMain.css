@@ -1,0 +1,125 @@
+body {
+    width:1000px;
+    background-color: #aab8a3;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+div {
+    background-color: #ebedf4;
+    /*overflow: auto;*/
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.borderSet {
+    border: 10px solid #ffffff;
+}
+#title-part {
+    text-align: center;
+    background-image: url(../images/background001.png);
+    background-size: cover;
+    color: #aab8b3;
+
+}
+#parson-page {
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.tagName {
+    font-weight: bold;
+}
+#information-part {
+    padding: 0;
+    margin:0;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-right: 10px solid #ffffff;
+
+}
+#main-part {
+    /*background-color: antiquewhite ;*/
+    flex: 8 1 auto;
+    padding:0 20px 20px 20px;
+
+}
+#myphoto {
+    height: 300px;
+    width:300px;
+    top: auto;
+    left: auto;
+    background: url(../images/IMG_001.jpg) no-repeat;
+    background-size: 200px;
+    background-position: center center;
+}
+
+#self-information {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin-left: 50px;
+    padding: 0;
+
+}
+#parson-name {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.tagImg  {
+    background: #ebedf4 no-repeat left center;
+    background-size: 25px;
+    padding-left: 30px;
+}
+#sex-age-location {
+    background: url(../images/tag01.png) no-repeat left center;
+    background-size: 25px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#sex-age-location div {
+    margin: 0;
+    padding: 0;
+}
+#highest-education {
+    background-image: url(../images/tag02-2.png);
+}
+#graduation-time {
+    background-image: url(../images/tag03.png);
+}
+#phone-num {
+    background-image: url(../images/tag04.png);
+}
+#e-mail {
+    background-image: url(../images/tag05.png);
+}
+#github-address {
+    background-image: url(../images/tag06.png);
+}
+#blog-address {
+    background-image: url(../images/tag07.png);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+}
+#quote-information {
+    padding-left:  20px;
+}
