@@ -4,7 +4,9 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    /*background-image: url(../images/background002.png);*/
 }
+
 div {
     background-color: #ebedf4;
     /*overflow: auto;*/
@@ -12,23 +14,36 @@ div {
     padding: 5px;
     border-radius: 3px;
 }
+/*外围边框设置*/
 .borderSet {
     border: 10px solid #ffffff;
 }
-#title-part {
-    text-align: center;
-    background-image: url(../images/background001.png);
-    background-size: cover;
-    color: #aab8b3;
 
+#title-part {
+    /*margin-top: 20px;*/
+    text-align: center;
+    background-image: url(../images/background002.png);
+    background-size: cover;
+    color: #f5f7fe;
 }
+#title-part span{
+    padding: 0 5px 0 5px;
+    border: 1px solid #ffffff;
+}
+
 #parson-page {
     padding: 0 10px 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
 }
+#main-part > div:hover {
+    background-color: #f5f7fe;
+}
+#main-part > div {
+    padding-left: 10px;
+}
+/*标题加粗*/
 .tagName {
     font-weight: bold;
 }
@@ -43,29 +58,29 @@ div {
 
 }
 #main-part {
-    /*background-color: antiquewhite ;*/
     flex: 8 1 auto;
     padding:0 20px 20px 20px;
 
 }
-#myphoto {
+/*照片显示*/
+#my-photo {
     height: 300px;
     width:300px;
     top: auto;
     left: auto;
-    background: url(../images/IMG_001.jpg) no-repeat;
+    background: url(../images/IMG_001.jpg) no-repeat center center;
     background-size: 200px;
-    background-position: center center;
+    /*border:1px solid #c1194e;*/
 }
-
+/*个人信息显示区域*/
 #self-information {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-flow: column nowrap;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    margin-left: 50px;
+    margin-left: 10%;
     padding: 0;
 
 }
@@ -76,12 +91,15 @@ div {
     left:50%;
     transform: translate(-50%,0);
 }
+
+/*图标位置控制*/
 .tagImg  {
     background: #ebedf4 no-repeat left center;
     background-size: 25px;
     padding-left: 30px;
 }
 #sex-age-location {
+    width: 62%;
     background: url(../images/tag01.png) no-repeat left center;
     background-size: 25px;
     padding-left: 30px;
@@ -94,6 +112,7 @@ div {
     margin: 0;
     padding: 0;
 }
+/*图标图片选择*/
 #highest-education {
     background-image: url(../images/tag02-2.png);
 }
@@ -114,10 +133,57 @@ div {
 }
 a {
     text-decoration: none;
+    color: #000000;
 }
 a:hover,a:active {
     text-decoration: underline;
+    color: #ff5983;
 }
+
+/*详细信息弹框设置*/
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+.details_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border:1px solid #aab8b3;
+    border-radius: 10px;
+    z-index:1002;
+    overflow: auto;
+}
+.title-education {
+    border-bottom: 1px solid #000000;
+    font-weight: bolder;
+}
+
+
+.details_content > div {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#main-part #details:hover {
+    background-color: white;
+}
+
 /*a[href^="http://www"] {*/
     /*background: url(../images/tag05-1.png) no-repeat right top;*/
     /*background-size: 10px;*/

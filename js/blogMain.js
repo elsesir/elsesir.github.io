@@ -19,7 +19,24 @@ window.onload=function() {
             }
         }
     });
-
+    var educationDetail = new Vue ({
+        el: '#education',
+        methods : {
+            detail: function(){
+                document.getElementById('details').style.display='block',
+                document.getElementById('fade').style.display='block'
+            }
+        }
+    });
+    var detailWindow = new Vue ({
+        el: '#details',
+        methods: {
+            close: function() {
+                document.getElementById('details').style.display='none',
+                document.getElementById('fade').style.display='none'
+            }
+        }
+    })
 
 
 }
