@@ -1,5 +1,5 @@
 body {
-    width:1000px;
+    width:76%;
     background-color: #aab8a3;
     position: relative;
     left: 50%;
@@ -30,19 +30,23 @@ div {
     padding: 0 5px 0 5px;
     border: 1px solid #ffffff;
 }
-
+#title-part p{
+    display:none;
+    padding-right: 10px;
+    text-align: right;
+}
+.back:hover {
+    cursor: pointer;
+    color: #aab8a3;
+    border-color: #aab8a3;
+}
 #parson-page {
     padding: 0 10px 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-#main-part > div:hover {
-    background-color: #f5f7fe;
-}
-#main-part > div {
-    padding-left: 10px;
-}
+
 /*标题加粗*/
 .tagName {
     font-weight: bold;
@@ -58,14 +62,21 @@ div {
 
 }
 #main-part {
-    flex: 8 1 auto;
+    flex: 2 1 auto;
     padding:0 20px 20px 20px;
+}
+#main-part > div:hover {
+    background-color: #f5f7fe;
+}
+#main-part > div {
+    padding-left: 10px;
 
 }
 /*照片显示*/
 #my-photo {
     height: 300px;
     width:300px;
+    /*width: 100%;*/
     top: auto;
     left: auto;
     background: url(http://ou2blo0sw.bkt.clouddn.com/me.jpg) no-repeat center center;
@@ -107,6 +118,7 @@ div {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 #sex-age-location div {
     margin: 0;

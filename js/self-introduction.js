@@ -15,7 +15,7 @@ window.onload=function() {
                 phoneNum: '15757127620',
                 email: 'shenase@foxmail.com',
                 github: 'https://github.com/elsesir',
-                blog: 'https://elsesir.github.io/'
+                blog: 'https://elsesir.github.io'
             }
         }
     });
