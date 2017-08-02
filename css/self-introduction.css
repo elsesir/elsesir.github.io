@@ -141,6 +141,9 @@ a:hover,a:active {
 }
 
 /*详细信息弹框设置*/
+#education:hover {
+    cursor: pointer;
+}
 .black_overlay{
     display: none;
     position: absolute;
@@ -167,6 +170,14 @@ a:hover,a:active {
     z-index:1002;
     overflow: auto;
 }
+.close {
+    color: #aab8a3;
+}
+.close:hover {
+    color: #ff5983;
+    cursor: pointer;
+}
+
 .title-education {
     border-bottom: 1px solid #000000;
     font-weight: bolder;
