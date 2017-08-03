@@ -10,11 +10,12 @@
 </head>
 <body>
 <div id="title-part" class="borderSet">
+    <p class="back"><a href="html/blog-main.html" class="back">首页</a>
     <h1><span class="outer">
         <span>个人简历</span>
     </span>
     </h1>
-    <p class="back"><a href="html/blog-main.html" class="back">首页</a>
+
 </div>
 <div id="parson-page" class="borderSet">
     <div id="information-part">
@@ -26,10 +27,10 @@
                 <div>{{ parsonInf.age }}</div>
                 <div>{{ parsonInf.location }}</div>
             </div>
-            <div id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
-            <div id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
-            <div id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
-            <div id="e-mail" class="tagImg">{{ parsonInf.email }}</div>
+            <div title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
+            <div title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
+            <div title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
+            <div title="E-mail地址" id="e-mail" class="tagImg">{{ parsonInf.email }}</div>
             <div title="GitHub地址" id="github-address" class="tagImg">
                 <a v-bind:href="parsonInf.github">
                     {{ parsonInf.github }}

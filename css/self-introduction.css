@@ -25,6 +25,7 @@ div {
     background-image: url(../images/background002.png);
     background-size: cover;
     color: #f5f7fe;
+    font-family: "Wawati SC";
 }
 #title-part span {
     padding: 0 5px 0 5px;
@@ -35,8 +36,10 @@ div {
     position: absolute;
     padding-right: 10px;
     top:-1px;
-    left:95%;
+    left:90%;
+    width:40px;
     color: #f5f7fe;
+
 }
 #title-part .back:hover {
     cursor: pointer;
@@ -97,6 +100,9 @@ div {
     margin-left: 10%;
     padding: 0;
 
+}
+#self-information > div:hover {
+    background-color: #f5f7fe;
 }
 #parson-name {
     text-align: center;

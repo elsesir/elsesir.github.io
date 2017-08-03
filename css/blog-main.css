@@ -2,27 +2,37 @@ body {
     background: url(http://ou2blo0sw.bkt.clouddn.com/background001.jpg) no-repeat center top;
     background-size:1500px;
 }
+
 #all-content {
     width: 96%;
     position: relative;
     left:2%;
-    margin-top:350px;
-    border: 1px solid #ffffff;
+    margin-top:240px;
+    padding:0;
+    letter-spacing: 10px;
+    /*border: 1px solid #ffffff;*/
 }
+
 #main-title {
-    /*background-color: #aab8a3;*/
     color: #f5f7fe;
-    height: 150px;
     text-align: center;
+}
+
+#main-title p:last-child {
+    text-align: right;
+    margin: 10px;
 }
 #main-title span {
     display: block;
     position: relative;
     font-size: 50px;
     padding: 0 5px 0 5px;
+    font-family: Zapfino;
 }
-.back {
-    /*text-align: right;*/
+.author {
+    border-bottom: 1px solid #f5f7fe;
+    margin: 0 250px 0 250px;
+    padding-bottom: 10px;
 
 }
 a {
