@@ -2,80 +2,23 @@ body {
     background: url(http://ou2blo0sw.bkt.clouddn.com/background001.jpg) no-repeat center top;
     background-size:1500px;
 }
-/*#main-title{*/
-    /*background:url(../images/background002.png);*/
-    /*-webkit-text-fill-color:transparent;*/
-    /*-webkit-background-clip:text;*/
-    /*-webkit-animation-name:masked-animation;*/
-    /*-webkit-animation-duration:4s;*/
-    /*-webkit-animation-iteration-count:infinite;*/
-    /*-webkit-animation-timing-function:linear;*/
-    /*color:#fff;*/
-/*}*/
-/*@-webkit-keyframes masked-animation {*/
-    /*0% {background-position:left bottom;}*/
-    /*100% {background-position:right bottom;}*/
-/*}*/
+#all-content {
+    width: 96%;
+    position: relative;
+    left:2%;
+    margin-top:200px;
+    border: 1px solid #ffffff;
+}
 #main-title {
-    text-align: center;
-    border:1px solid #f5f7fe;
-    margin: 30% 1% 1% 1%;
-}
-#main-title span{
+    /*background-color: #aab8a3;*/
     color: #f5f7fe;
-    font-size: 30px;
-    /*浏览器私有前缀*/
-    -webkit-text-fill-color:white;
-    /*伪空心的文字，与背景色有关*/
-    -webkit-text-stroke-color:#f5f7fe;
-    -webkit-text-stroke-width:1px;
-    /*W3C标准*/
-    text-fill-color:white;
-    text-stroke-color:#f5f7fe;
-    text-stroke-width:1px;
+    height: 150px;
     text-align: center;
-    /*border:1px solid #f5f7fe;*/
-    padding:2px 5px 2px 5px;
 }
-
-.item-left:first-child{
-    padding-top: 40px;
-}
-
-.item-left, .item-right {
+#main-title span {
+    display: block;
     position: relative;
-    left: 50%;
-    width: 200px;
-    margin: 0;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    font-size: 30px;
-    color: #f5f7fe;
-}
-.item-left:hover, .item-right:hover {
-    color: #ff5983;
-    cursor: pointer;
-}
-.item-left {
-    transform: translate(-200px,0);
-    border-right:2px solid #f5f7fe;
-}
-.item-right {
-    border-left: 2px solid #f5f7fe;
-}
-.line {
-    padding:0;
-    margin:0;
-    height: 600px;
-    width:0;
-    position: relative;
-    left:50%;
-    border: 1px solid #f5f7fe;
-}
-a {
-    text-decoration: none;
-    color: #f5f7fe;
-}
-a:hover {
-    color: #ff5983;
+
+    font-size: 50px;
+    padding: 0 5px 0 5px;
 }

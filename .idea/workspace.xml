@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/blog-main.css" afterPath="$PROJECT_DIR$/css/blog-main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/self-introduction.css" afterPath="$PROJECT_DIR$/css/self-introduction.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog-main.html" afterPath="$PROJECT_DIR$/html/blog-main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="elsesir.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="264">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -42,18 +41,18 @@
       <file leaf-file-name="self-introduction.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/self-introduction.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+            <state relative-caret-position="432">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blog-main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/blog-main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="169">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,8 +61,8 @@
       <file leaf-file-name="blog-main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/blog-main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -77,9 +76,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/blog-main.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/self-introduction.css" />
+        <option value="$PROJECT_DIR$/html/blog-main.html" />
         <option value="$PROJECT_DIR$/css/blog-main.css" />
       </list>
     </option>
@@ -271,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501696472973</updated>
       <workItem from="1501696475120" duration="2086000" />
-      <workItem from="1501734831780" duration="5249000" />
+      <workItem from="1501734831780" duration="6809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7335000" />
+    <option name="totallyTimeSpent" value="8895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
@@ -334,32 +333,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog-main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/self-introduction.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blog-main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="264">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
