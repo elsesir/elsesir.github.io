@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fc0042-a319-4973-99ff-fd4a6a24cdea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog-homepage.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/self-introduction.css" afterPath="$PROJECT_DIR$/css/self-introduction.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog-start.html" afterPath="$PROJECT_DIR$/html/blog-start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/self-introduction.html" afterPath="$PROJECT_DIR$/html/self-introduction.html" />
     </list>
     <ignored path="elsesir.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="self-introduction.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="self-introduction.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/self-introduction.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="self-introduction.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="self-introduction.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/self-introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+            <state relative-caret-position="192">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -111,8 +108,8 @@
         <option value="$PROJECT_DIR$/html/blog-homepage.html" />
         <option value="$PROJECT_DIR$/html/blog-start.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html/self-introduction.html" />
         <option value="$PROJECT_DIR$/css/self-introduction.css" />
+        <option value="$PROJECT_DIR$/html/self-introduction.html" />
       </list>
     </option>
   </component>
@@ -298,12 +295,12 @@
       <updated>1501696472973</updated>
       <workItem from="1501696475120" duration="2086000" />
       <workItem from="1501734831780" duration="13075000" />
-      <workItem from="1501771980846" duration="4422000" />
+      <workItem from="1501771980846" duration="4558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19583000" />
+    <option name="totallyTimeSpent" value="19719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
@@ -439,6 +436,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/self-introduction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -449,16 +454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/self-introduction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/self-introduction.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="192">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding />
         </state>
       </provider>
