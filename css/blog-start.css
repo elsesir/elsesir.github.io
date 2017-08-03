@@ -1,0 +1,52 @@
+body {
+    background-color: #aab8a3;
+}
+body > div {
+    width: 90%;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.back {
+   text-align: end;
+}
+#waiting-image {
+    border: 2px solid #f5f7fe;
+    overflow: auto;
+    height:500px;
+    width: 100%;
+}
+img {
+    height: 500px;
+    display: block;
+    /*position: relative;*/
+    margin-left: 10%;
+    float: left;
+    border-left: 2px solid #f5f7fe;
+    border-right: 2px solid #f5f7fe;
+}
+#waiting-image .waiting-message {
+    float: left;
+    top: 20%;
+    color: #f5f7fe;
+    font-size: 20px;
+
+}
+.waiting-message p{
+    position: relative;
+    top: 100px;
+    padding-left: 30px;
+}
+p {
+    font-family: "Wawati SC";
+}
+.author {
+    text-align: end;
+}
+a {
+    text-decoration: none;
+    color: #f5f7fe;
+}
+a:hover {
+    color: #f938ab;
+}
