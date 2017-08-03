@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fc0042-a319-4973-99ff-fd4a6a24cdea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/blog-main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/blog-main.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/blog-start.html" afterPath="$PROJECT_DIR$/html/blog-start.html" />
     </list>
     <ignored path="elsesir.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/html/blog-start.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -80,8 +77,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/blog-homepage.css" />
         <option value="$PROJECT_DIR$/css/blog-start.css" />
-        <option value="$PROJECT_DIR$/html/blog-start.html" />
         <option value="$PROJECT_DIR$/html/blog-homepage.html" />
+        <option value="$PROJECT_DIR$/html/blog-start.html" />
       </list>
     </option>
   </component>
@@ -281,12 +278,12 @@
       <updated>1501696472973</updated>
       <workItem from="1501696475120" duration="2086000" />
       <workItem from="1501734831780" duration="13075000" />
-      <workItem from="1501771980846" duration="3858000" />
+      <workItem from="1501771980846" duration="3950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19019000" />
+    <option name="totallyTimeSpent" value="19111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
@@ -433,7 +430,7 @@
     <entry file="file://$PROJECT_DIR$/html/blog-start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>
