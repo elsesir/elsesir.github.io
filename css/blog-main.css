@@ -21,3 +21,17 @@ body {
     font-size: 50px;
     padding: 0 5px 0 5px;
 }
+.back {
+    /*text-align: right;*/
+
+}
+a {
+    text-decoration: none;
+    color: #f5f7fe;
+    padding: 0 5px 0 5px;
+    border-bottom: 1px solid #f5f7fe;
+}
+a:hover {
+    color: #aab8a3;
+    border-color: #aab8a3;
+}
