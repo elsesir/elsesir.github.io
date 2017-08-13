@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid #f5f7fe;
     margin: 0 250px 0 250px;
     padding-bottom: 10px;
-
+    white-space: nowrap;
 }
 a {
     text-decoration: none;
