@@ -9,7 +9,7 @@ window.onload=function() {
                 name: '申阿瑟',
                 sex: '女',
                 age: 26,
-                location: '杭州',
+                location: '广州',
                 highestEducation: '硕士',
                 graduationTime: '2017.7',
                 phoneNum: '15757127620',
