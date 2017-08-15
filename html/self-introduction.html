@@ -30,7 +30,8 @@
             <div title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
             <div title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
             <div title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
-            <div title="E-mail地址" id="e-mail" class="tagImg">{{ parsonInf.email }}</div>
+            <div title="E-mail地址" id="e-mail" class="tagImg">
+                <a href="Mailto:shenase@foxmail.com">{{ parsonInf.email }}</a></div>
             <div title="GitHub地址" id="github-address" class="tagImg">
                 <a v-bind:href="parsonInf.github">
                     {{ parsonInf.github }}
