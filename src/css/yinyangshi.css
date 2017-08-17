@@ -1,0 +1,197 @@
+body,div,ul,li,a,img{ margin: 0;padding: 0;}
+
+#show_outer {
+    height: 590px;
+    background: url("../images/yinyangshi001.jpeg") no-repeat center;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+#titlebanner {
+    height: 40px;
+    width: 100%;
+    color: #ebedf4;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+#show_inner {
+    position: relative;
+    left: 200px;
+    width: 2000px;
+    /*overflow: hidden;*/
+    padding-top: 30px;
+}
+#show_inner div{
+    background-color: transparent;
+}
+@keyframes roleshow-left {
+    0% { left: 140px;  opacity: 0;  filter:alpha(opacity=0);}
+    100% { left: 60px; opacity: 1;  filter:alpha(opacity=100);}
+}
+@keyframes roleshow-right {
+    0% { left: 0; opacity: 0; filter:alpha(opacity=0); }
+    100% { left: 300px; opacity: 1;  filter:alpha(opacity=100); }
+}
+@keyframes rolehide-left {
+    0% { left: 60px; opacity: 1;  filter:alpha(opacity=100);}
+    100% { left: 150px;  opacity: 0; filter:alpha(opacity=0);}
+}
+@keyframes rolehide-right {
+    0% { left: 300px;  opacity: 1;  filter:alpha(opacity=100);}
+    100% { left:200px; opacity: 0; filter:alpha(opacity=0); }
+
+}
+.slide {
+    position: relative;
+}
+.slide span {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.slide .r1 {
+    left: 160px;
+    top:0;
+    display: block;
+    animation-name: roleshow-left;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.slide .r2 {
+    left: 0;
+    display: block;
+    animation: roleshow-right 2s ease forwards;
+}
+#ro3, #ro4 {
+    display: none;
+}
+.part2 {
+    /*padding: 0; margin: 0;*/
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.slide #ro3{
+    top: 110px;
+}
+
+.next, .prev{
+    position: absolute;
+    top: 260px;
+    left: 800px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.prev {
+    transform: rotate(180deg);
+    left: 0;
+    display: none;
+}
+.next:hover, .prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*wave动态*/
+.wave-group {
+    position: absolute;
+    top: 500px;
+}
+.wave-group img {
+    position: absolute;
+    width: 1284px;
+}
+.wave-group .wave1 {
+    left: 0;
+}
+.wave-group .wave2 {
+    left:1284px;
+}
+.wave-group .wave3 {
+    left: 2568px;
+}
+@keyframes move {
+    0%   { left: 0 ;}
+    /*100% { left: -1284px;}*/
+    50%  { left: -1284px;}
+    100% { left: -2568px;}
+}
+.group-1 {
+    animation: move 7s infinite linear;
+}
+.group-2 {
+    left: -300px;
+    opacity: 0.5;
+    animation: move 5s infinite linear;
+}
+.group-3 {
+    left: -600px;
+    opacity: 0.2;
+    animation: move 10s infinite linear;
+}
+.bunny {
+    position: absolute;
+    top:450px;
+    left: 170px;
+}
+.bunny img {
+    width: 120px;
+}
+
+#news-part {
+    margin: 40px 10px;
+}
+
+/*信息切换页*/
+a {
+    text-decoration: none;
+}
+#banner {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 360px;
+    height: 270px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.imgList {
+    width: 2200px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.imgList li {
+    float: left;
+}
+.banner_nav {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    left: 0;
+
+}
+.banner_nav a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #e376b3;
+    border-radius: 7px;
+}
+.banner_nav a:hover {
+    background-color: #e376b3;
+    cursor: pointer;
+}
+.banner_nav .On {
+    background-color: #e376b3;
+}
