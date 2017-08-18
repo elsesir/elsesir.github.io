@@ -2,6 +2,20 @@
  * Created by bigWhite on 17/8/16.
  */
 $(document).ready(function() {
+    $(window).scroll(function(){
+        if( $(window).scrollTop() > 100) {
+            $(".left_part").show();
+            $("#top_bar").addClass('fixed');
+            $(".topnav_li,.nav_item").css({color:"#000000"});
+            $(".logo span").addClass('hidelogo');
+        } else  {
+            $(".left_part").hide();
+            $("#top_bar").removeClass('fixed');
+            $(".topnav_li,.nav_item").css({color:"#ffffff"});
+            $(".logo span").removeClass('hidelogo');
+        }
+    });
+
     $(".next").click(function(){
        // alert(count);
         $("#ro1").css({"animation": "rolehide-left 2s forwards"});
@@ -54,6 +68,11 @@ $(document).ready(function() {
             curNav = item;
         }, function() {
         bannerchangeAgain();
+        });
+    });
+    $(".news_tabs").find("a").each( function(item) {
+        $(this).hover( function(){
+            $(".news_list").animate( {left: "-" + item * 500 + "px"},500);
         });
     });
 });

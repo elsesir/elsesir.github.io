@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fc0042-a319-4973-99ff-fd4a6a24cdea" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/blog-homepage.css" afterPath="$PROJECT_DIR$/src/css/blog-homepage.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/blog-start.css" afterPath="$PROJECT_DIR$/src/css/blog-start.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/self-introduction.css" afterPath="$PROJECT_DIR$/src/css/self-introduction.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/blog-homepage.html" afterPath="$PROJECT_DIR$/src/html/blog-homepage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/blog-start.html" afterPath="$PROJECT_DIR$/src/html/blog-start.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/self-introduction.html" afterPath="$PROJECT_DIR$/src/html/self-introduction.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208007.png" afterPath="$PROJECT_DIR$/src/images/1208007.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208057.png" afterPath="$PROJECT_DIR$/src/images/1208057.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208060.png" afterPath="$PROJECT_DIR$/src/images/1208060.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208092.png" afterPath="$PROJECT_DIR$/src/images/1208092.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208163.png" afterPath="$PROJECT_DIR$/src/images/1208163.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208234.png" afterPath="$PROJECT_DIR$/src/images/1208234.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1208244.png" afterPath="$PROJECT_DIR$/src/images/1208244.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/background001.jpg" afterPath="$PROJECT_DIR$/src/images/background001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/background002.png" afterPath="$PROJECT_DIR$/src/images/background002.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/helloworld.jpg" afterPath="$PROJECT_DIR$/src/images/helloworld.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/placeholder_343.71532846715px_1208163_easyicon.net.png" afterPath="$PROJECT_DIR$/src/images/placeholder_343.71532846715px_1208163_easyicon.net.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/shirt_384.8880733945px_1208184_easyicon.net.png" afterPath="$PROJECT_DIR$/src/images/shirt_384.8880733945px_1208184_easyicon.net.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag01.png" afterPath="$PROJECT_DIR$/src/images/tag01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag02-2.png" afterPath="$PROJECT_DIR$/src/images/tag02-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag02.png" afterPath="$PROJECT_DIR$/src/images/tag02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag03.png" afterPath="$PROJECT_DIR$/src/images/tag03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag04.png" afterPath="$PROJECT_DIR$/src/images/tag04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag05-1.png" afterPath="$PROJECT_DIR$/src/images/tag05-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag05.png" afterPath="$PROJECT_DIR$/src/images/tag05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag06-1.png" afterPath="$PROJECT_DIR$/src/images/tag06-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag06.png" afterPath="$PROJECT_DIR$/src/images/tag06.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag07-1.png" afterPath="$PROJECT_DIR$/src/images/tag07-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tag07.png" afterPath="$PROJECT_DIR$/src/images/tag07.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/self-introduction.js" afterPath="$PROJECT_DIR$/src/js/self-introduction.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-sync/package.json" afterPath="$PROJECT_DIR$/node_modules/browser-sync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/blog-homepage.css" afterPath="$PROJECT_DIR$/src/css/blog-homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/yinyangshi.css" afterPath="$PROJECT_DIR$/src/css/yinyangshi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/yinyangshi.html" afterPath="$PROJECT_DIR$/src/html/yinyangshi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/yinyangshi.js" afterPath="$PROJECT_DIR$/src/js/yinyangshi.js" />
     </list>
     <ignored path="elsesir.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-homepage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/blog-homepage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -70,9 +53,21 @@
       <file leaf-file-name="yinyangshi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/yinyangshi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ol#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#4;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,18 +75,8 @@
       <file leaf-file-name="yinyangshi.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/yinyangshi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="self-introduction.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/self-introduction.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3096">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -100,8 +85,8 @@
       <file leaf-file-name="yinyangshi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/yinyangshi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -141,10 +126,11 @@
         <option value="$PROJECT_DIR$/src/html/self-introduction.html" />
         <option value="$PROJECT_DIR$/src/css/self-introduction.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/js/yinyangshi.js" />
         <option value="$PROJECT_DIR$/src/html/yinyangshi.html" />
         <option value="$PROJECT_DIR$/src/css/yinyangshi.css" />
-        <option value="$PROJECT_DIR$/src/js/yinyangshi.js" />
+        <option value="$PROJECT_DIR$/src/css/blog-homepage.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -329,12 +315,12 @@
       <workItem from="1501771980846" duration="6426000" />
       <workItem from="1502630886830" duration="472000" />
       <workItem from="1502806430103" duration="238000" />
-      <workItem from="1502812382080" duration="32850000" />
+      <workItem from="1502812382080" duration="53386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55147000" />
+    <option name="totallyTimeSpent" value="75683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -471,14 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/blog-homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/self-introduction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -503,14 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="152" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/self-introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -524,44 +494,72 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/self-introduction.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3096">
+        <state relative-caret-position="-4243">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/yinyangshi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/yinyangshi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/yinyangshi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/yinyangshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ol#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#3;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#4;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/yinyangshi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/blog-homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>

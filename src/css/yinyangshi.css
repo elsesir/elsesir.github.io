@@ -1,24 +1,116 @@
-body,div,ul,li,a,img{ margin: 0;padding: 0;}
+body,div,ul,li,a,img,p { margin: 0;padding: 0;}
+body {
+    /*min-width: 1400px;*/
+    font-family: 'Microsoft Yahei';
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+#top_bar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.left_part {
+    display: none;
+    float: left;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.left_part img {
+    width: 74px;
+    height: 74px;
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #aab8a3;
+}
+.left_part > p {
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 16px;
+    line-height: 16px;
+    float: left;
+}
+.left_part > a {
+    float: left;
+    height: 72px;
+    width: auto;
+    margin-left: 15px;
+}
+.log_icon {
+    display: block;
+    float: left;
+    width: 73px;
+    height: 73px;
+    margin-right: 14px;
+    background: url(../images/index_z.png) no-repeat -759px -608px;
+}
+.game_name {
+    float: left;
+    width: auto;
+    height: 73px;
+}
+.game_name h3 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
 
+
+.fixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.9);
+    color: #000000;
+}
+.topnav_list {
+    float: right;
+    color: #ffffff;
+    padding-top: 30px;
+    margin-right: 15px;
+}
+.topnav_list li {
+    float: left;
+    line-height: 35px;
+    text-align: center;
+}
+.topnav_list li a{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.topnav_list li a:hover {
+    color: #cc4336;
+}
 #show_outer {
-    height: 590px;
+    height: 580px;
     background: url("../images/yinyangshi001.jpeg") no-repeat center;
     background-size: 100%;
     position: relative;
     overflow: hidden;
 
 }
-#titlebanner {
-    height: 40px;
-    width: 100%;
-    color: #ebedf4;
-    position: relative;
-    left: 0;
-    bottom: 0;
-}
 #show_inner {
     position: relative;
     left: 200px;
+    top: 40px;
     width: 2000px;
     /*overflow: hidden;*/
     padding-top: 30px;
@@ -94,6 +186,7 @@ body,div,ul,li,a,img{ margin: 0;padding: 0;}
 .next:hover, .prev:hover {
     opacity: 1;
     filter: alpha(opacity=100);
+    cursor: pointer;
 }
 
 /*wave动态*/
@@ -141,15 +234,39 @@ body,div,ul,li,a,img{ margin: 0;padding: 0;}
 .bunny img {
     width: 120px;
 }
-
-#news-part {
-    margin: 40px 10px;
+.logo {
+    position: absolute;
+    top: 38px;
+    left: 50px;
+    width: 50px;
+    height: 162px;
+    transition: all 1s 1.2s;
+}
+.logo .animate {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+}
+.logo span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://webinput.nie.netease.com/img/yys/logo.png/50) 0px 0px no-repeat;
+    transition: all 0.3s linear;
+}
+.hidelogo {
+    transform: scale(0);
+    opacity: 0;
+}
+#news_part {
+    margin: 30px 10px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-/*信息切换页*/
-a {
-    text-decoration: none;
-}
+/*信息切换页轮播图*/
+
+
 #banner {
     margin: 0;
     padding: 0;
@@ -183,15 +300,98 @@ a {
 }
 .banner_nav a {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #e376b3;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #e37b63;
     border-radius: 7px;
 }
 .banner_nav a:hover {
-    background-color: #e376b3;
+    background-color: #e37b63;
     cursor: pointer;
 }
 .banner_nav .On {
-    background-color: #e376b3;
+    background-color: #e37b63;
 }
+/*信息显示*/
+.news_tabs {
+    position: absolute;
+    width: 500px;
+    top: 0;
+    left: 400px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #000000;
+}
+.news_wrap a {
+    display: block;
+    float: left;
+}
+
+.news_tabs em {
+    width: 76px;
+    height: 35px;
+    font-style: normal;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 1px 10px;
+    margin-left: 10px;
+    /*background-color: #68d7fc;*/
+}
+.news_tabs em:hover {
+    background-color: #68d7fc;
+}
+.news_tabs em span {
+    position: relative;
+    top: -2px;
+    left:0;
+    font-size: 26px;
+}
+.news_tabs li {
+    font-style: normal;
+    font-size: 30px;
+}
+.clearfix:after {
+    clear: both;
+}
+.temp_wrap {
+    position: absolute;
+    top: 48px;
+    left: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+.news_list {
+    position: relative;
+    width: 2500px;
+}
+.news_list  ul {
+    list-style: none;
+    float: left;
+    width: 500px;
+}
+.news_list ul li {
+    line-height: 41px;
+    position: relative;
+    overflow: hidden;
+    /*width: 500px;*/
+    font-size: 14px;
+    border-bottom: 1px dashed;
+}
+.news_list ul:first-child {
+    border-top: 1px solid;
+}
+.news_list li a:hover {
+    color: #ad7610;
+}
+.news_list li em {
+    float: right;
+    font-style: normal;
+    font-size: 12px;
+    color: #bccddc;
+}
+.news_list li a {
+    float: left;
+    width: 80%;
+     text-overflow: ellipsis;
+    overflow: hidden;
+     white-space: nowrap;
+ }
