@@ -22,10 +22,7 @@ body {
     color: transparent;
     -webkit-text-stroke: 2px #f5f7fe;
 }
-#title-part p:last-child {
-    text-align: right;
-    margin: 10px;
-}
+
 #title-part span {
     display: block;
     position: relative;
