@@ -1,6 +1,7 @@
 body,div,ul,li,a,img,p { margin: 0;padding: 0;}
 body {
     /*min-width: 1400px;*/
+    max-width: 1920px;
     font-family: 'Microsoft Yahei';
 }
 a {
@@ -24,6 +25,8 @@ li {
     height: 100px;
     min-width: 1200px;
     margin: 0 auto;
+    transition: background .5s ease;
+    -webkit-transition: background .4s ease;
 }
 .left_part {
     display: none;
@@ -219,11 +222,13 @@ li {
 .group-2 {
     left: -300px;
     opacity: 0.5;
+    filter: alpha(opacity=50);
     animation: move 5s infinite linear;
 }
 .group-3 {
     left: -600px;
     opacity: 0.2;
+    filter: alpha(opacity=20);
     animation: move 10s infinite linear;
 }
 .bunny {
@@ -233,6 +238,11 @@ li {
 }
 .bunny img {
     width: 120px;
+}
+.bunny img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+
 }
 .logo {
     position: absolute;
@@ -250,22 +260,22 @@ li {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(https://webinput.nie.netease.com/img/yys/logo.png/50) 0px 0px no-repeat;
+    background: url(https://webinput.nie.netease.com/img/yys/logo.png/50) 0 0 no-repeat;
     transition: all 0.3s linear;
 }
 .hidelogo {
     transform: scale(0);
     opacity: 0;
 }
+
 #news_part {
-    margin: 30px 10px;
+    margin: 30px 5px;
     position: relative;
     top: 0;
     left: 0;
 }
 
 /*信息切换页轮播图*/
-
 
 #banner {
     margin: 0;
@@ -350,7 +360,9 @@ li {
     font-size: 30px;
 }
 .clearfix:after {
+    content: " ";
     clear: both;
+    height: 0;
 }
 .temp_wrap {
     position: absolute;
@@ -391,7 +403,180 @@ li {
 .news_list li a {
     float: left;
     width: 80%;
-     text-overflow: ellipsis;
+    text-overflow: ellipsis;
     overflow: hidden;
-     white-space: nowrap;
+    white-space: nowrap;
  }
+.download_wrap {
+    position: absolute;
+    top: 462px;
+    left: 400px;
+    width: 533px;
+    height: 123px;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+
+}
+.fold {
+     width: 300px;
+     margin-left: 491px;
+ }
+.download_wrap_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    background: #fccc00;
+    border-radius: 9px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 0 7px 4px #feeb00 inset;
+}
+.download_wrap_inner .dw_context {
+    overflow: hidden;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /*给所有子元素加一个margin-bottom:10px;防止在还原时可以看到第二行浮动元素的上边框*/
+}
+.download_wrap_inner .close_download {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -1684px -835px;
+}
+.download_wrap_inner .download_txt {
+    float: left;
+    height: 100px;
+    width: 45px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -1350px -614px;
+}
+.download_wrap_inner .qrcode {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    height: 91px;
+    width: 91px;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+}
+.qrcode img {
+    width: 100%
+}
+@keyframes mainbarcode {
+    0%   { top: 10% ; }
+    100% { top: 90% ; }
+}
+.qrcode .line {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    -moz-animation: mainbarcode 2.5s linear infinite;
+    -webkit-animation: mainbarcode 2.5s linear infinite;
+    -o-animation: mainbarcode 2.5s linear infinite;
+    -ms-animation: mainbarcode 2.5s linear infinite;
+    animation: mainbarcode 2.5s linear infinite;
+}
+.download_wrap_inner .download_button {
+    float: left;
+    width: 175px;
+    height: 120px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+.download_button .down_ios {
+    display: block;
+    width: 171px;
+    height: 51px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -1174px -1314px;
+}
+.download_button .down_ios:hover {
+    background-position: -907px -978px;
+}
+.download_button .down_android {
+    display: block;
+    width: 171px;
+    height: 51px;
+    margin-top: 5px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -1080px -993px;
+}
+.download_button .down_android:hover {
+    background-position: -1345px -1314px
+}
+.download_wrap_inner .button_desktop {
+    float: left;
+    width: 131px;
+    height: 107px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -928px -683px;
+}
+.download_wrap .fold_wrap a {
+    margin: 10px;
+    display: none;
+    float: left;
+    background: url( ../images/index_z.png) no-repeat;
+    background-position: -1328px -614px;
+    width: 22px;
+    height: 105px;
+}
+.info-desktop {
+    display: none;
+    width: 350px;
+    height: 80px;
+    background: rgba(255,255,255,.9);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 365px;
+    margin-left: -100px;
+    z-index: 11;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.info-desktop p {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/*右侧活动介绍*/
+.right_side_bar {
+    overflow: hidden;
+    position: absolute;
+    width: 330px;
+    height: 1129px;
+    left: 933px;
+    top: 345px;
+    background: url(../images/side_bg1.png) bottom center no-repeat;
+}
+.right_side_bar .arrow {
+    position: absolute;
+    top: 145px;
+    left: 0;
+    border-left: 5px solid #fee300;
+    border-bottom: 5px solid transparent;
+    border-top:5px solid transparent;
+}
+.right_side_bar .rside_title {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    width: 321px;
+    height:  169px;
+    background: url("../images/index_z.png") no-repeat;
+    background-position: -586px -872px;
+}

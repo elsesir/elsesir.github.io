@@ -3,7 +3,7 @@
  */
 $(document).ready(function() {
     $(window).scroll(function(){
-        if( $(window).scrollTop() > 100) {
+        if( $(window).scrollTop() > 40) {
             $(".left_part").show();
             $("#top_bar").addClass('fixed');
             $(".topnav_li,.nav_item").css({color:"#000000"});
@@ -75,4 +75,32 @@ $(document).ready(function() {
             $(".news_list").animate( {left: "-" + item * 500 + "px"},500);
         });
     });
+    //下载信息页面
+    $(".close_download").click( function() {
+        if( $(".download_wrap").hasClass('fold')) {
+            $(".download_wrap").removeClass('fold');
+            $(".dw_context").toggle();
+            $(".fold_wrap a").toggle();
+        } else {
+            $(".download_wrap").addClass('fold');
+            $(".dw_context").toggle();
+            $(".fold_wrap a").toggle();
+        }
+    });
+    $(".fold_wrap").click( function(){
+        if( $(".download_wrap").hasClass('fold')) {
+            $(".download_wrap").removeClass('fold');
+            $(".dw_context").toggle();
+            $(".fold_wrap a").toggle();
+        } else {
+            $(".download_wrap").addClass('fold');
+            $(".dw_context").toggle();
+            $(".fold_wrap a").show();
+        }
+    });
+    $(".button_desktop").hover( function(){
+        $(".info-desktop").fadeIn();
+    }, function(){
+        $(".info-desktop").fadeOut();
+    })
 });
