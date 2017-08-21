@@ -20,7 +20,7 @@ li {
 }
 #top_bar {
     position: absolute;
-    z-index: 1;
+    z-index: 20;
     width: 100%;
     height: 100px;
     min-width: 1200px;
@@ -561,7 +561,8 @@ li {
     height: 1129px;
     left: 933px;
     top: 345px;
-    background: url(../images/side_bg1.png) bottom center no-repeat;
+    z-index: 1;
+    background: url(../images/side_bg1.png) bottom left no-repeat;
 }
 .right_side_bar .arrow {
     position: absolute;
@@ -579,4 +580,245 @@ li {
     height:  169px;
     background: url("../images/index_z.png") no-repeat;
     background-position: -586px -872px;
+}
+.link_list {
+    position: absolute;
+    top: 199px;
+    left: 0;
+}
+.link_list a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    position: relative;
+    background: url(../images/index_z.png) no-repeat;
+}
+.link_list a span {
+    position: relative;
+    display: block;
+    width: 186px;
+    height: 36px;
+    font-size: 13px;
+}
+.link_list .icon1 {
+    width: 321px;
+    height: 104px;
+    margin-top: 10px;
+    background-position: -661px -1057px;
+}
+.link_list .icon1 span {
+     width: 186px;
+     top: 55px;
+     left: 25px;
+ }
+.link_list a.odd {
+    float: left;
+    margin-left: 28px;
+}
+.link_list a.eve {
+    float: right;
+    margin-right: 28px;
+}
+.link_list a:hover {
+    -webkit-transform: translate3d(15px,0,0);
+    -moz-transform: translate3d(15px,0,0);
+    -ms-transform: translate3d(15px,0,0);
+    -o-transform: translate3d(15px,0,0);
+    transform: translate3d(15px,0,0);
+}
+.link_list a .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background: url(../images/index_z.png) no-repeat;
+}
+.link_list .icon2 {
+    background-position: 0 -1314px;
+    width: 324px;
+    height: 91px;
+    z-index: 8;
+}
+.link_list .icon2  span {
+    width: 149px;
+    top: 45px;
+    left: 160px;
+}
+.link_list .icon2 .details {
+    height: 363px;
+    width: 324px;
+    background-position: -308px 0;
+}
+.link_list .icon2 .details2 {
+    left: 30px;
+    top: 0;
+    width: 300px;
+    height: 290px;
+    padding-top: 10px;
+}
+
+.icon2 .details2 span {
+    width: 77%;
+    left: 40px;
+    margin: 10px 0 0 25px;
+}
+.icon2 .details span:last-child {
+    margin-top: 30px;
+}
+.icon2 .details2 em {
+    font-style: normal;
+    color: #f95c19;
+}
+.link_list .icon3 {
+    background-position: -1400px -99px;
+    width: 307px;
+    height: 95px;
+    top: 0;
+    z-index: 7;
+}
+.link_list .icon3 span {
+    width: 186px;
+    top: 46px;
+    left: 20px;
+}
+.link_list .icon3 .details {
+    height: 187px;
+    width: 324px;
+    z-index: 2;
+    background-position: -327px -683px;
+}
+.icon3 .details2 span {
+    width: 77%;
+    left: 0;
+    margin: 30px 0 0 25px;
+}
+.link_list .icon4 {
+    background-position: -301px -1210px;
+    width: 294px;
+    height: 100px;
+    z-index: 6;
+}
+.link_list .icon4  span {
+    width: 149px;
+    top: 46px;
+    left: 130px;
+}
+.link_list .icon4 .details {
+    height: 187px;
+    width: 324px;
+    z-index: 2;
+    background-position: -634px -683px;
+}
+.icon4 .details2 span {
+    width: 77%;
+    left: 0;
+    margin: 30px 0 0 25px;
+}
+.link_list .icon5 {
+    background-position: -330px -1057px;
+    width: 331px;
+    height: 85px;
+    z-index: 5;
+    padding-top: 60px;
+    margin-top: -10px;
+}
+.link_list .icon5 span {
+    width: 320px;
+    top: 0;
+    left: 10px;
+}
+.link_list .icon5 .details {
+    background-position: -210px -364px;
+    height: 302px;
+    width: 324px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding-top: 70px;
+}
+.icon5 .details2 span {
+    width: 300px;
+    left: 0;
+    margin: 0 0 -10px 10px;
+    padding: 0;
+}
+.link_list .icon6 {
+    background-position: -1400px 0;
+    width: 308px;
+    height: 95px;
+    margin-top: -50px;
+    z-index: 4;
+}
+.link_list .icon6 span {
+    width: 149px;
+    top: 60px;
+    left: 140px;
+}
+.link_list .icon6 .details {
+    background-position: 0 0;
+    height: 364px;
+    width: 308px;
+}
+.link_list .icon7 {
+    background-position: -1080px -882px;
+    width: 309px;
+    height: 108px;
+    z-index: 3;
+    margin-top: -10px;
+}
+.link_list .icon7 span {
+    width: 164px;
+    top: 50px;
+    left: 20px;
+}
+.link_list .icon8 {
+    background-position: -595px -1210px;
+    width: 309px;
+    height: 95px;
+    z-index: 2;
+    margin-top: -8px;
+}
+.link_list .icon8 span {
+    width: 230px;
+    top: 45px;
+    left: 100px;
+}
+.link_list .icon9 {
+    z-index: 1;
+    width: 312px;
+    height: 100px;
+    background-position: -906px -1210px;
+    margin-top: -8px;
+}
+.link_list .icon9 span {
+    width: 320px;
+    top: 60px;
+    left: 20px;
+}
+.pop {
+    position: fixed;
+    width: 351px;
+    height: 98px;
+    background: url(https://yys.res.netease.com/pc/gw/20160929201016/img/zhiliaopian/show_foreshow_5a94242.png) 0 bottom no-repeat;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -538px;
+    z-index: 100;
+}
+.pop em {
+    position: absolute;
+    width: 46px;
+    height: 72px;
+    top: 0;
+    right: 19px;
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -1661px -382px;
+}
+.shishen_wrap {
+    position: relative;
+    width: 100%;
+    height: 607px;
+    background: #fff url(../images/strategy_bg.jpg) center 105px no-repeat;
 }

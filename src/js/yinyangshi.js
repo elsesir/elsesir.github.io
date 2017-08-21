@@ -102,5 +102,19 @@ $(document).ready(function() {
         $(".info-desktop").fadeIn();
     }, function(){
         $(".info-desktop").fadeOut();
-    })
+    });
+    // $(".icon2").hover ( function (){
+    //     $(".icon2 .details").show();
+    // }, function(){
+    //     $(".icon2 .details").toggle();
+    // });
+
+    $(".link_list").find("a").each( function(item) {
+        $(this).hover ( function (){
+            $(this).find(" .details").show();
+        }, function(){
+            $(this).find(".details").toggle();
+        });
+    });
 });
+
