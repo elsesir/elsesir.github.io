@@ -801,7 +801,7 @@ li {
     position: fixed;
     width: 351px;
     height: 98px;
-    background: url(https://yys.res.netease.com/pc/gw/20160929201016/img/zhiliaopian/show_foreshow_5a94242.png) 0 bottom no-repeat;
+    background: url(../images/show_foreshow.png) 0 bottom no-repeat;
     bottom: 10px;
     left: 50%;
     margin-left: -538px;
@@ -813,6 +813,7 @@ li {
     height: 72px;
     top: 0;
     right: 19px;
+    z-index: 2;
     background: url(../images/index_z.png) no-repeat;
     background-position: -1661px -382px;
 }
