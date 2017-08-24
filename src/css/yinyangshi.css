@@ -823,3 +823,19 @@ li {
     height: 607px;
     background: #fff url(../images/strategy_bg.jpg) center 105px no-repeat;
 }
+.shishen_wrap .shishen_tabs{
+    width: 1200px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.shishen_tabs .tab_name {
+    background: url(../images/index_z.png) no-repeat;
+    background-position: -884px -1314px;
+    width: 130px;
+    height: 69px;
+}
+.shishen_tabs a {
+    display: block;
+    width: 100px;
+    height: 91px;
+}

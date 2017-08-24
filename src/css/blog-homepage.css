@@ -7,7 +7,7 @@ body {
     width: 96%;
     position: relative;
     left:2%;
-    margin-top:240px;
+    margin-top:200px;
     padding:0;
     letter-spacing: 10px;
     /*border: 1px solid #ffffff;*/
@@ -16,6 +16,8 @@ body {
 #title-part {
     color: #f5f7fe;
     text-align: center;
+    overflow: hidden;
+    padding-bottom: 40px;
 
 }
 #main-title {
@@ -45,4 +47,25 @@ a {
 a:hover {
     color: #aab8a3;
     border-color: #aab8a3;
+}
+.lianxi {
+    display: none;
+    background: rgba(255,255,255,.9);
+    border-radius: 10px;
+    position: fixed;
+    left: 65%;
+    bottom: 10px;
+    z-index: 1;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1px 10px;
+}
+.lianxi a {
+    color: #aab8a3;
+    text-decoration: none;
+}
+.lianxi a:hover {
+    text-decoration: none;
+    color: #ff5983;
+
 }

@@ -1,0 +1,19 @@
+body {
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+    font-size: 12px;
+    margin: 0;
+}
+.main {
+    background: url(../images/bg_1.jpg) no-repeat;
+    background-size: 100%;
+    max-width: 1920px;
+    height: 1025px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.main_top .top_logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
