@@ -52,7 +52,7 @@ body {
     padding-bottom: 0.2rem;
     overflow:auto;
 }
-#title-part a {
+.tabs a {
     display:block;
     float: left;
     transform: translate(-150%,0);
@@ -68,6 +68,28 @@ body {
     border-radius: 0.3rem;
     padding: 0.02rem 0.1rem;
 }
-#title-part a:hover {
+.tabs a:hover {
     color: #ff5983;
+}
+.lianxi {
+    /*display: none;*/
+    border-radius: 0.2rem;
+    z-index: 1;
+    width: auto;
+    font-size: 0.12rem;
+    padding: 0.01rem 0.1rem;
+}
+.lianxi p{
+    margin: 0;
+    padding: 0;
+}
+.lianxi a {
+    color: #aab8a3;
+    text-decoration: none;
+}
+
+.lianxi a:hover {
+    text-decoration: none;
+    color: #ff5983;
+
 }
