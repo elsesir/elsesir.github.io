@@ -83,7 +83,7 @@
 
     }
 }
-@media screen and (max-device-width:899px) {
+@media screen and (max-device-width:899px), screen and (-webkit-min-device-pixel-ratio: 3) {
     /*320px布局*/
     html {
         font-size: 100px;
@@ -211,16 +211,16 @@
 
     }
 
-    /*iphone6*/
-    @media (min-device-width: 375px)and(max-device-width: 667px)and(-webkit-min-device-pixel-ratio: 2) {
-        html {
-            font-size: 117.1875px;
-        }
-    }
-    /*iphone6plus*/
-    @media (min-device-width: 414px)and(max-device-width: 736px)and(-webkit-min-device-pixel-ratio: 3) {
-        html {
-            font-size: 129.375px;
-        }
-    }
+    /*!*iphone6*!*/
+    /*@media (min-device-width: 375px)and(max-device-width: 667px)and(-webkit-min-device-pixel-ratio: 2) {*/
+        /*html {*/
+            /*font-size: 117.1875px;*/
+        /*}*/
+    /*}*/
+    /*!*iphone6plus*!*/
+    /*@media (min-device-width: 414px)and(max-device-width: 736px)and(-webkit-min-device-pixel-ratio: 3) {*/
+        /*html {*/
+            /*font-size: 129.375px;*/
+        /*}*/
+    /*}*/
 }
