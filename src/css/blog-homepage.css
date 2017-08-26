@@ -1,4 +1,4 @@
-@media screen and (min-device-width:900px) {
+@media screen and (min-device-width:1200px) {
 
     body {
         background: url(http://ou2blo0sw.bkt.clouddn.com/background001.jpg) no-repeat center top;
@@ -83,8 +83,35 @@
 
     }
 }
-@media screen and (max-device-width:899px), screen and (-webkit-min-device-pixel-ratio: 3) {
+@media screen and (max-device-width:1200px){
     /*320px布局*/
+    html {
+        font-size: 100px;
+    }
+    /*iphone6*/
+    @media (min-device-width: 375px)and(max-device-width: 667px)and(-webkit-min-device-pixel-ratio: 2) {
+    html {
+    font-size: 117.1875px;
+    }
+    }
+    /*iphone6plus*/
+    @media (min-device-width: 414px)and(max-device-width: 736px)and(-webkit-min-device-pixel-ratio: 3) {
+    html {
+    font-size: 129.375px;
+    }
+    }
+    /*iphone6plus*/
+    @media (min-device-width: 1024px)and(max-device-width: 1366px) {
+        html {
+            font-size: 376.25px;
+        }
+    }
+    /*320px布局*/
+    @media (min-device-width: 320px) {
+        html {
+            font-size: 100px;
+        }
+    }
     html {
         font-size: 100px;
     }
@@ -152,36 +179,33 @@
         border-bottom: 0.01rem solid #f5f7fe;
         transform: translate(-50%,0);
     }
-    @media screen and (device-width: 320px)
-    {
-        .tabs a {
+    .tabs a {
             text-decoration: none;
-            color: #37c6c0;
+            color: #9ccdd9;
             width: 1rem;
             text-align: center;
             flex: 0 1 auto;
-            border-bottom: 0.02rem solid #aab8a3;
+            border-bottom: 0.06rem solid #aab8a3;
         }
 
-    }
-    @media screen and (min-device-width:321px) {
-        .tabs a {
-            display: block;
-            float: left;
-            transform: translate(-150%, 0);
-            position: relative;
-            top: 0;
-            left: 50%;
-            text-decoration: none;
-            color: #000000;
-            width: 1rem;
-            text-align: center;
-            flex: 0 1 auto;
-            border: 0.02rem solid #aab8a3;
-            border-radius: 0.3rem;
-            padding: 0.02rem 0.1rem;
-        }
-    }
+    /*@media screen and (min-device-width:321px) {*/
+        /*.tabs a {*/
+            /*display: block;*/
+            /*float: left;*/
+            /*transform: translate(-150%, 0);*/
+            /*position: relative;*/
+            /*top: 0;*/
+            /*left: 50%;*/
+            /*text-decoration: none;*/
+            /*color: #000000;*/
+            /*width: 1rem;*/
+            /*text-align: center;*/
+            /*flex: 0 1 auto;*/
+            /*border: 0.02rem solid #aab8a3;*/
+            /*border-radius: 0.3rem;*/
+            /*padding: 0.02rem 0.1rem;*/
+        /*}*/
+    /*}*/
     .tabs a:hover {
         color: #ff5983;
     }
@@ -201,7 +225,7 @@
     }
 
     .lianxi a {
-        color: #aab8a3;
+        color: #9ccdd9;
         text-decoration: none;
     }
 
@@ -211,16 +235,5 @@
 
     }
 
-    /*!*iphone6*!*/
-    /*@media (min-device-width: 375px)and(max-device-width: 667px)and(-webkit-min-device-pixel-ratio: 2) {*/
-        /*html {*/
-            /*font-size: 117.1875px;*/
-        /*}*/
-    /*}*/
-    /*!*iphone6plus*!*/
-    /*@media (min-device-width: 414px)and(max-device-width: 736px)and(-webkit-min-device-pixel-ratio: 3) {*/
-        /*html {*/
-            /*font-size: 129.375px;*/
-        /*}*/
-    /*}*/
+
 }
