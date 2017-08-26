@@ -2,6 +2,7 @@
  * Created by bigWhite on 17/8/24.
  */
 $(document).ready(function() {
+
     $('.a_lianxi').hover( function(){
         $('.lianxi').show();
     });
