@@ -3,7 +3,7 @@
  */
 window.onload=function() {
     var parsonalInformation = new Vue({
-        el: '#self-information',
+        el: '.self-information',
         data: {
             parsonInf: {
                 name: '申阿瑟',
@@ -16,6 +16,16 @@ window.onload=function() {
                 email: 'shenase@foxmail.com',
                 github: 'https://github.com/elsesir',
                 blog: 'https://elsesir.github.io'
+            }
+        },
+        methods : {
+            detail: function(){
+                document.getElementById('details').style.display='block',
+                    document.getElementById('fade').style.display='block'
+            },
+            close: function() {
+                document.getElementById('details').style.display='none',
+                    document.getElementById('fade').style.display='none'
             }
         }
     });

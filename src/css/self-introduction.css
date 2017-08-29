@@ -89,8 +89,9 @@ div {
     background-size: 200px;
     /*border:1px solid #c1194e;*/
 }
+
 /*个人信息显示区域*/
-#self-information {
+.self-information {
     width: 80%;
     display: flex;
     flex-flow: column nowrap;
@@ -101,8 +102,11 @@ div {
     padding: 0;
 
 }
-#self-information > div:hover {
+.self-information > div:hover {
     background-color: #f5f7fe;
+}
+[v-cloak] {
+    display: none;
 }
 #parson-name {
     text-align: center;
