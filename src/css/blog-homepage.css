@@ -83,7 +83,7 @@
 
     }
 }
-@media screen and (max-device-width:1200px){
+@media all and (max-device-width:1200px){
     /*320px布局*/
     html {
         font-size: 100px;
