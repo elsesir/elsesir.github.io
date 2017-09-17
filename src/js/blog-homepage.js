@@ -11,4 +11,6 @@ $(document).ready(function() {
     $('.a_lianxi').click( function(){
         $('.lianxi').show();
     });
+
+
 });
