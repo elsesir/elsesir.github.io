@@ -15,110 +15,116 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
 </head>
 <body>
-<div id="title-part" class="borderSet">
-    <p class="back"><a href="../../index.html" class="back">返回首页</a>
-    <h1><span class="outer">
-        <span>个人简历</span>
-    </span>
-    </h1>
-
+<div class="tag-fiexd">
+    <span class="tag-name">Else Sir</span>
+    <a class="tags" href="../../index.html">返回首页</a>
+    <a class="tags" href="https://elsesir.github.io/myBlog/">个人博客</a>
 </div>
-<div id="parson-page" class="borderSet">
-    <div id="information-part">
-        <div id="my-photo"></div>
-        <div class="self-information" v-cloak>
-            <div id="parson-name">{{ parsonInf.name }}</div>
-            <div id="sex-age-location" class="tagImg">
-                <div>{{ parsonInf.sex }}</div>
-                <div>{{ parsonInf.age }}</div>
-                <div>{{ parsonInf.location }}</div>
+<div class="all-body">
+    <div class="title-part borderSet">
+        <a href="../../index.html" class="back">返回首页</a>
+        <h1><span>个人简历</span></h1>
+    </div>
+    <div id="parson-page" class="borderSet">
+        <div id="information-part">
+            <div id="my-photo"></div>
+            <div class="self-information" v-cloak>
+                <div id="parson-name">{{ parsonInf.name }}</div>
+                <div id="sex-age-location" class="tagImg">
+                    <div>{{ parsonInf.sex }}</div>
+                    <div>{{ parsonInf.age }}</div>
+                    <div>{{ parsonInf.location }}</div>
+                </div>
+                <div title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
+                <div title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
+                <div title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
+                <div title="E-mail地址" id="e-mail" class="tagImg">
+                    <a href="Mailto:shenase@foxmail.com">{{ parsonInf.email }}</a></div>
+                <div title="GitHub地址" id="github-address" class="tagImg">
+                    <a v-bind:href="parsonInf.github">
+                        {{ parsonInf.github }}
+                    </a>
+                </div>
+                <div title="个人主页地址" id="blog-address" class="tagImg">
+                    <a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a>
+                </div>
             </div>
-            <div title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
-            <div title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
-            <div title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
-            <div title="E-mail地址" id="e-mail" class="tagImg">
-                <a href="Mailto:shenase@foxmail.com">{{ parsonInf.email }}</a></div>
-            <div title="GitHub地址" id="github-address" class="tagImg">
-                <a v-bind:href="parsonInf.github">
-                    {{ parsonInf.github }}
-                </a>
+        </div>
+        <div id="main-part">
+            <div id="intention">
+                <p class="tagName">目前工作</p>
+                <p>深圳云财经大数据技术有限公司 <span>前端工程师</span></p>
             </div>
-            <div title="个人主页地址" id="blog-address" class="tagImg">
-                <a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a>
+            <div class="self-assessment">
+                <p class="tagName">自我评价</p>
+                <p>做事认真，学习刻苦。有良好的学习能力，在校期间一直保持良好的成绩，
+                    本科平均绩点3.50，名列专业前茅。硕士期间担任支部党支书职务，
+                    有较强的执行和管理能力，易于融入集体。
+                    对人诚恳友好，对工作认真负责，具有团队合作精神和创新意识。
+                </p>
+                <p>热爱前端，熟悉HTML、CSS、JavaScript、scss、jQuery、Vue.js、Vuex。
+                    理解基本的算法分析与数据结构，以及面向对象的设计模式。
+
+                </p>
+            </div>
+            <div id="education" v-on:click="detail">
+                <p class="tagName">教育经历</p>
+                <p>2014.9 - 2017.6 浙江工业大学 软件工程 图像处理 学硕</p>
+                <p>2010.9 - 2014.6 上海电力学院 信息安全 本科</p>
+            </div>
+            <div id="details" class="details_content">
+                <div><span class="close" v-on:click="close">关闭</span></div>
+                <div>
+                    <p class="title-education">2014.9 - 2017.6  浙江工业大学 软件工程 图像处理 学硕</p>
+                    <p>主要研究方向：图像处理，模式识别；</p>
+                    <p>主修课程：计算理论基础、现代网络原理、人工智能原理与应用、软件工程技术与设计；</p>
+                    <p>主要工作：基础理论学习，参与国家自然基金项目，获取一等学业奖学金。</p>
+                </div>
+
+                <div>
+                    <p class="title-education">2010.9 - 2014.6  上海电力学院 信息安全 本科</p>
+                    <p>信息安全专业是计算机与数学等多学科交叉学科，包括计算机课程和一些相关的数学课程。</p>
+                    <p>主修课程：C++程序设计、数据结构、计算机组成原理、计算机网络、
+                        数据库原理、操作系统原理、密码学、计算网络安全、计算机系统安全、信息安全、嵌入式；</p>
+                    <p>主要工作：各科成绩优秀，连续三年获得学校一等奖学金，
+                        并在2013年获得上海市奖学金，在2014年毕业时获得上海市优秀毕业生。</p>
+                </div>
+            </div>
+            <div id="fade" class="black_overlay">
+            </div>
+            <div id="academic_project">
+                <p class="tagName">学术项目</p>
+                <p>2014年-2017年    国家自然科学基金 浙江省自然科学基金</p>
+                <p>课题主题：生物群体行为语义模型研究及应用</p>
+                <p>项目描述：项目开发主要使用C++和openCV库，涉及图像处理，视频跟踪，行为分析，模式识别等方面。
+                    主要负责将导师提出的算法通过C++编程实现，同时针对实验中一种误差提出了提出了消除算法，提高了整个系统的鲁棒性和精度，
+                    并最终完成了系统实现，拟写两篇论文。
+                </p>
+            </div>
+            <div id="award">
+                <p class="tagName">获奖情况</p>
+                <ul>
+                    <li>2015年  荣获浙江工业大学校一等学业奖学金</li>
+                    <li>2014年  荣获上海市优秀毕业生</li>
+                    <li>2013年  荣获上海市奖学金</li>
+                    <li>2013年  获得上海电力学院校级一等奖学金</li>
+                    <li>2012年  获得上海电力学院校级一等奖学金</li>
+                    <li>2011年  获得上海电力学院校级一等奖学金</li>
+                </ul>
             </div>
         </div>
     </div>
-    <div id="main-part">
-        <div id="intention">
-            <p class="tagName">求职意向</p>
-            <p>前端工程师 广州</p>
-        </div>
-        <div id="self-assessment">
-            <p class="tagName">自我评价</p>
-            <p>做事认真，学习刻苦。有良好的学习能力，在校期间一直保持良好的成绩，
-                本科平均绩点3.50，名列专业前茅。硕士期间担任支部党支书职务，
-                有较强的执行和管理能力，易于融入集体。
-                对人诚恳友好，对工作认真负责，具有团队合作精神和创新意识。
-            </p>
-            <p>热爱前端，熟悉HTML、CSS、JavaScript，
-                了解Less、jQuery、Vue.js、ajax。
-                理解基本的算法分析与数据结构，以及面向对象的设计模式。
-
-            </p>
-        </div>
-        <div id="education" v-on:click="detail">
-            <p class="tagName">教育经历</p>
-            <p>2014.9 - 2017.6 浙江工业大学 软件工程 图像处理 学硕</p>
-            <p>2010.9 - 2014.6 上海电力学院 信息安全 本科</p>
-        </div>
-        <div id="details" class="details_content">
-            <div><span class="close" v-on:click="close">关闭</span></div>
-            <div>
-                <p class="title-education">2014.9 - 2017.6  浙江工业大学 软件工程 图像处理 学硕</p>
-                <p>主要研究方向：图像处理，模式识别；</p>
-                <p>主修课程：计算理论基础、现代网络原理、人工智能原理与应用、软件工程技术与设计；</p>
-                <p>主要工作：基础理论学习，参与国家自然基金项目，获取一等学业奖学金。</p>
-            </div>
-
-            <div>
-                <p class="title-education">2010.9 - 2014.6  上海电力学院 信息安全 本科</p>
-                <p>信息安全专业是计算机与数学等多学科交叉学科，包括计算机课程和一些相关的数学课程。</p>
-                <p>主修课程：C++程序设计、数据结构、计算机组成原理、计算机网络、
-                    数据库原理、操作系统原理、密码学、计算网络安全、计算机系统安全、信息安全、嵌入式；</p>
-                <p>主要工作：各科成绩优秀，连续三年获得学校一等奖学金，
-                    并在2013年获得上海市奖学金，在2014年毕业时获得上海市优秀毕业生。</p>
-            </div>
-        </div>
-        <div id="fade" class="black_overlay">
-        </div>
-        <div id="academic_project">
-            <p class="tagName">学术项目</p>
-            <p>2014年-2017年    国家自然科学基金 浙江省自然科学基金</p>
-            <p>课题主题：生物群体行为语义模型研究及应用</p>
-            <p>项目描述：项目开发主要使用C++和openCV库，涉及图像处理，视频跟踪，行为分析，模式识别等方面。
-                主要负责将导师提出的算法通过C++编程实现，同时针对实验中一种误差提出了提出了消除算法，提高了整个系统的鲁棒性和精度，
-                并最终完成了系统实现，拟写两篇论文。
-            </p>
-        </div>
-        <div id="award">
-            <p class="tagName">获奖情况</p>
-            <ul>
-                <li>2015年  荣获浙江工业大学校一等学业奖学金</li>
-                <li>2014年  荣获上海市优秀毕业生</li>
-                <li>2013年  荣获上海市奖学金</li>
-                <li>2013年  获得上海电力学院校级一等奖学金</li>
-                <li>2012年  获得上海电力学院校级一等奖学金</li>
-                <li>2011年  获得上海电力学院校级一等奖学金</li>
-            </ul>
-        </div>
+    <div class="quote-information borderSet">
+        <p>配色来自：<a href="http://www.peise.net/2017/0801/5771.html">http://www.peise.net/2017/0801/5771.html</a></p>
+        <p>图标来自：<a href="http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/">http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/</a></p>
     </div>
-</div>
-<div id="quote-information" class="borderSet">
-    <p>配色来自：<a href="http://www.peise.net/2017/0801/5771.html">http://www.peise.net/2017/0801/5771.html</a></p>
-    <p>图标来自：<a href="http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/">http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/</a></p>
 </div>
 </body>
 </html>

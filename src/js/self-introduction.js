@@ -9,13 +9,14 @@ window.onload=function() {
                 name: '申阿瑟',
                 sex: '女',
                 age: 26,
-                location: '广州',
+                location: '深圳',
                 highestEducation: '硕士',
                 graduationTime: '2017.7',
                 phoneNum: '15757127620',
                 email: 'shenase@foxmail.com',
                 github: 'https://github.com/elsesir',
-                blog: 'https://elsesir.github.io'
+                blog: 'https://elsesir.github.io',
+                job: '深圳云财经大数据技术有限公司'
             }
         },
         methods : {
@@ -47,6 +48,13 @@ window.onload=function() {
             }
         }
     })
+    $(window).scroll(function(){
+         console.log('测试');
+        if( $(window).scrollTop() > 100) {
+            $(".tag-fiexd").show();
+        } else  {
+            $(".tag-fiexd").hide();
+        }
+    });
 
-
-}
+};

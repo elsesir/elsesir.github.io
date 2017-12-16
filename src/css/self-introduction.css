@@ -1,4 +1,37 @@
 body {
+    background-color: #aab8a3;
+}
+.tag-fiexd {
+    display: none;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    text-align: center;
+    font-family: Zapfino;
+    background-color: rgba(255,255,255,.9);
+    color: #000000;
+    line-height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #aab8a3;
+}
+.tag-name {
+    float: left;
+    padding-left: 10px;
+}
+.tags {
+    float: right;
+    padding-right: 10px;
+    font-family: "Wawati SC"
+}
+.tags:hover,a:active {
+    text-decoration: none;
+    color: #ff5983;
+}
+.all-body {
+    min-width: 720px;
     width:76%;
     background-color: #aab8a3;
     position: relative;
@@ -19,29 +52,27 @@ div {
      border: 10px solid #ffffff;
  }
 
-#title-part {
+.title-part {
     /*margin-top: 20px;*/
     text-align: center;
+    position: relative;
     background-image: url(../images/background002.png);
     background-size: cover;
     color: #f5f7fe;
     font-family: "Wawati SC";
 }
-#title-part span {
+.title-part span {
     padding: 0 5px 0 5px;
     border: 1px solid #ffffff;
 }
 
-#title-part .back {
+.title-part .back {
     position: absolute;
-    padding-right: 10px;
-    top:-1px;
-    left:80%;
-    width:80px;
+    right: 20px;
     color: #f5f7fe;
 
 }
-#title-part .back:hover {
+.title-part .back:hover {
     cursor: pointer;
     color: #aab8a3;
     text-decoration: none;
@@ -124,7 +155,7 @@ div {
 }
 #sex-age-location {
     width: 62%;
-    background: url(../src/images/tag01.png) no-repeat left center;
+    background: url(../images/tag01.png) no-repeat left center;
     background-size: 25px;
     padding-left: 30px;
     display: flex;
@@ -139,22 +170,22 @@ div {
 }
 /*图标图片选择*/
 #highest-education {
-    background-image: url(../src/images/tag02-2.png);
+    background-image: url(../images/tag02-2.png);
 }
 #graduation-time {
-    background-image: url(../src/images/tag03.png);
+    background-image: url(../images/tag03.png);
 }
 #phone-num {
-    background-image: url(../src/images/tag04.png);
+    background-image: url(../images/tag04.png);
 }
 #e-mail {
-    background-image: url(../src/images/tag05.png);
+    background-image: url(../images/tag05.png);
 }
 #github-address {
-    background-image: url(../src/images/tag06.png);
+    background-image: url(../images/tag06.png);
 }
 #blog-address {
-    background-image: url(../src/images/tag07.png);
+    background-image: url(../images/tag07.png);
 }
 a {
     text-decoration: none;
@@ -230,6 +261,9 @@ ul {
     margin: 0;
     list-style-type:none;
 }
-#quote-information {
-    padding-left:  20px;
+.quote-information {
+    padding:  20px;
+}
+.quote-information p {
+    margin: 0;
 }
