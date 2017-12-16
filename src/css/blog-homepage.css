@@ -137,7 +137,6 @@
         width: 2rem;
         height: 2rem;
         z-index: 1;
-        background-color: #ececec;
         border: 0.1rem solid #ffffff;
         transform: translate(-50%, -50%);
         border-radius: 1.01rem;
@@ -185,7 +184,6 @@
             width: 1rem;
             text-align: center;
             flex: 0 1 auto;
-            border-bottom: 0.06rem solid #aab8a3;
         }
 
     /*@media screen and (min-device-width:321px) {*/
