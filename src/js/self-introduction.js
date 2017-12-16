@@ -49,7 +49,6 @@ window.onload=function() {
         }
     })
     $(window).scroll(function(){
-         console.log('测试');
         if( $(window).scrollTop() > 100) {
             $(".tag-fiexd").show();
         } else  {
