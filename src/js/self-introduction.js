@@ -43,11 +43,11 @@ window.onload=function() {
         el: '#details',
         methods: {
             close: function() {
-                document.getElementById('details').style.display='none',
-                document.getElementById('fade').style.display='none'
+                document.getElementById('details').style.display='none';
+                $('.mark').hide();
             }
         }
-    })
+    });
     $(window).scroll(function(){
         if( $(window).scrollTop() > 100) {
             $(".tag-fiexd").show();
@@ -55,5 +55,11 @@ window.onload=function() {
             $(".tag-fiexd").hide();
         }
     });
-
+    $('#education').click( function() {
+        $('.mark').show();
+    });
+    $('.mark').click( function() {
+        $('.mark').hide();
+        $('.details_content').hide();
+    });
 };

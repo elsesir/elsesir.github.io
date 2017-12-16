@@ -16,6 +16,7 @@ body {
     line-height: 60px;
     box-sizing: border-box;
     border: 1px solid #aab8a3;
+    transition: all 1s 3s;
 }
 .tag-name {
     float: left;
@@ -98,16 +99,15 @@ div {
     border-right: 10px solid #ffffff;
 
 }
-#main-part {
+.main-part {
     flex: 3 1 auto;
     padding:0 20px 20px 20px;
 }
-#main-part > div:hover {
+.main-part > div:hover {
     background-color: #f5f7fe;
 }
-#main-part > div {
+.main-part > div {
     padding-left: 10px;
-
 }
 /*照片显示*/
 #my-photo {
@@ -200,14 +200,14 @@ a:hover,a:active {
 #education:hover {
     cursor: pointer;
 }
-.black_overlay{
+.mark{
     display: none;
-    position: absolute;
-    top: 0%;
-    left: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:2;
     width: 100%;
     height: 100%;
-    z-index:1001;
     -moz-opacity: 0.8;
     opacity:.80;
     filter: alpha(opacity=88);
@@ -215,16 +215,22 @@ a:hover,a:active {
 .details_content {
     display: none;
     position: absolute;
-    top: 25%;
-    left: 30%;
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ebedf4;
     border:1px solid #aab8b3;
     border-radius: 10px;
-    z-index:1002;
-    overflow: auto;
+    z-index:2;
+}
+#details:hover {
+    background: #ebedf4;
+}
+.inner-content {
+    position: relative;
+    z-index:3;
+    width: 500px;
+    margin: 10px;
 }
 .close {
     color: #aab8a3;
@@ -237,18 +243,6 @@ a:hover,a:active {
 .title-education {
     border-bottom: 1px solid #000000;
     font-weight: bolder;
-}
-
-
-.details_content > div {
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-#main-part #details:hover {
-    background-color: white;
 }
 
 /*a[href^="http://www"] {*/
