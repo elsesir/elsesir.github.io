@@ -1,3 +1,6 @@
+body {
+    background-color: #ececec;
+}
 @media screen and (min-device-width:1200px) {
 
     body {
@@ -230,7 +233,6 @@
     .lianxi a:hover {
         text-decoration: none;
         color: #ff5983;
-
     }
 
 
