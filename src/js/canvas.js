@@ -2,16 +2,15 @@
  * Created by bigWhite on 17/8/24.
  */
 window.onload = function() {
-
+   console.log('test');
     //画矩形
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
 
     ctx.fillStyle = 'red';//填充颜色
     ctx.strokeStyle = 'green';//边框颜色
-    ctx.fillRect(10, 10, 100, 100);//实心矩形
+    ctx.fillRect(20, 20, 100, 100);//实心矩形
     ctx.strokeRect(10, 10, 100, 100);//实心矩形
-    console.log(111);
     ctx.fill();//画实心图像（填充）
     ctx.stroke();//画空心图像（边框）
 
