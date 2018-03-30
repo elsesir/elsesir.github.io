@@ -8,7 +8,6 @@ window.onload=function() {
             parsonInf: {
                 name: '申阿瑟',
                 sex: '女',
-                age: 26,
                 location: '深圳',
                 highestEducation: '硕士',
                 graduationTime: '2017.7',
@@ -17,6 +16,12 @@ window.onload=function() {
                 github: 'https://github.com/elsesir',
                 blog: 'https://elsesir.github.io',
                 job: '深圳云财经大数据技术有限公司'
+            }
+        },
+        computed: {
+            parsonInf_age: function(){
+                var date = new Date();
+                return date.getFullYear() - 1991;
             }
         },
         methods : {
