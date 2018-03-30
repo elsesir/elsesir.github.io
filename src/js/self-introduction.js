@@ -3,7 +3,7 @@
  */
 window.onload=function() {
     var parsonalInformation = new Vue({
-        el: '.self-information',
+        el: '.all-body',
         data: {
             parsonInf: {
                 name: '申阿瑟',
@@ -24,30 +24,17 @@ window.onload=function() {
                 document.getElementById('details').style.display='block',
                     document.getElementById('fade').style.display='block'
             },
-            close: function() {
-                document.getElementById('details').style.display='none',
-                    document.getElementById('fade').style.display='none'
-            }
-        }
-    });
-    var educationDetail = new Vue ({
-        el: '#education',
-        methods : {
-            detail: function(){
-                document.getElementById('details').style.display='block',
-                document.getElementById('fade').style.display='block'
-            }
-        }
-    });
-    var detailWindow = new Vue ({
-        el: '#details',
-        methods: {
+            // close: function() {
+            //     document.getElementById('details').style.display='none',
+            //         document.getElementById('fade').style.display='none'
+            // }
             close: function() {
                 document.getElementById('details').style.display='none';
                 $('.mark').hide();
             }
         }
     });
+
     $(window).scroll(function(){
         if( $(window).scrollTop() > 100) {
             $(".tag-fiexd").show();
