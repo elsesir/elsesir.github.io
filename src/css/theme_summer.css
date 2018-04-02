@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(36, 195, 248, 0.24);
+    background: url('../images/background_bird.png') repeat;
+
+}
+.tag-fiexd {
+    font-family: Zapfino;
+    background-color: rgba(255,255,255,.9);
+    color: #000000;
+    border: 1px solid #25C6FC;
+}
+
+.tags:hover,a:active {
+    color: #FF534D;
+}
+.all-body {
+
+}
+#parson-page, .quote-information {
+    background-color: rgba(36, 195, 248, 0.24);
+    /*background-color: #D1E0ED;*/
+}
+
+/*外围边框设置*/
+.borderSet {
+    border: 10px solid #9fddfc;
+}
+
+.title-part {
+    background: linear-gradient(to right, #FF534D, #EDD0BE, #25C6FC); /* 标准的语法 */
+    color: #f5f7fe;
+
+}
+.title-part span {
+    border: 1px solid #ffffff;
+}
+
+.title-part .back {
+    color: #f5f7fe;
+
+}
+.title-part .back:hover {
+    color: #EDD0BE;
+}
+
+#information-part {
+    border-right: 10px solid #ffffff;
+}
+
+.main-part > div:hover {
+    background-color: rgba(36, 195, 248, 0.2);
+}
+.tagImg  {
+    background-color: transparent;
+}
+
+.self-information > div:hover {
+    background-color: rgba(36, 195, 248, 0.2);
+}
+
+/*图标图片选择*/
+#highest-education {
+    background-image: url(../images/tag02-2.png);
+}
+
+a {
+    color: #000000;
+}
+a:hover,a:active {
+    color: #FF534D;
+}
+
+.details_content {
+    background-color: #CAECFC ;
+    border:1px solid #D1E0ED;
+}
+#details:hover {
+    background: #CAECFC;
+}
+.mark {
+    background: #ebedf4;
+}
+.close {
+    color: #25C6FC;
+}
+.close:hover {
+    color: #FF534D;
+    cursor: pointer;
+}
+}
+.click-line:hover {
+    color: #FF534D;
+}
