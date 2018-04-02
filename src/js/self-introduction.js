@@ -25,7 +25,7 @@ window.onload=function() {
         methods: {
           hide: function() {
               // console.log(this.popContent);
-              console.log('isClick');
+              // console.log('isClick');
               this.$emit('click-popbg');
           }
         },
@@ -68,11 +68,11 @@ window.onload=function() {
                 $('.mark').hide();
             },
             showPop: function() {
-                console.log('showPop');
+                // console.log('showPop');
                 this.popsShow = true;
             },
             hidePop: function() {
-                console.log('hidePop');
+                // console.log('hidePop');
                 this.popsContent = ''; // 关闭的时候清空pops内容
                 this.popsShow = false;
             },
