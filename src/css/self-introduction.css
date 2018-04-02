@@ -195,19 +195,6 @@ a:hover,a:active {
     color: #ff5983;
 }
 
-/*详细信息弹框设置*/
-#education:hover {
-    cursor: pointer;
-}
-
-.close {
-    color: #aab8a3;
-}
-.close:hover {
-    color: #ff5983;
-    cursor: pointer;
-}
-
 ul {
     padding: 0;
     margin: 0;

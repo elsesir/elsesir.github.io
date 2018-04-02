@@ -1,31 +1,32 @@
 body {
-    background-color: rgba(36, 195, 248, 0.24);
-    background: url('../images/background_bird.png') repeat;
+    background: linear-gradient(to right, #aab8a3, #ebedf4, #aab8a3)
+    /*background: url('../images/background_bird.png') repeat;*/
 
 }
 .tag-fiexd {
     font-family: Zapfino;
     background-color: rgba(255,255,255,.9);
     color: #000000;
-    border: 1px solid #25C6FC;
+    border: 1px solid #aab8a3;
 }
 
 .tags:hover,a:active {
-    color: #FF534D;
+    color: #ff5983;
 }
 
 #parson-page, .quote-information {
-    background-color: rgba(36, 195, 248, 0.24);
+    background-color: #ebedf4;
     /*background-color: #D1E0ED;*/
 }
 
 /*外围边框设置*/
 .borderSet {
-    border: 10px solid #9fddfc;
+    border: 10px solid #ffffff;
 }
 
 .title-part {
-    background: linear-gradient(to right, #FF534D, #EDD0BE, #25C6FC); /* 标准的语法 */
+    /*background: linear-gradient(to right, #ff5983, #c1194e,#7a023c); */
+    background-image: url(../images/background002.png);
     color: #f5f7fe;
 
 }
@@ -38,7 +39,7 @@ body {
 
 }
 .title-part .back:hover {
-    color: #EDD0BE;
+    color: #aab8a3;
 }
 
 #information-part {
@@ -46,14 +47,14 @@ body {
 }
 
 .main-part > div:hover {
-    background-color: rgba(36, 195, 248, 0.2);
+    background-color: #f5f7fe;
 }
 .tagImg  {
     background-color: transparent;
 }
 
 .self-information > div:hover {
-    background-color: rgba(36, 195, 248, 0.2);
+    background-color: #f5f7fe;
 }
 
 /*图标图片选择*/
@@ -65,19 +66,19 @@ a {
     color: #000000;
 }
 a:hover,a:active {
-    color: #FF534D;
+    color: #ff5983;
 }
 
 .close {
-    color: #25C6FC;
+    color: #aab8a3;
 }
 .close:hover {
-    color: #FF534D;
+    color: #ff5983;
     cursor: pointer;
 }
 .click-line:hover {
-    color: #FF534D;
+    color: #ff5983;
 }
 .pop-content {
-    background-color: #9fddfc;
+    background-color: #e2e4eb;
 }

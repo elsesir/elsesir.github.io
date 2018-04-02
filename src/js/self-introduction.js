@@ -2,6 +2,12 @@
  * Created by bigWhite on 17/8/1.
  */
 window.onload=function() {
+    var date = new Date();
+    var month = date.getMonth();
+    if(month > 2 && month < 12 ) {
+        $("link[title='summer']").removeAttr("disabled");
+        // $("link[title='spring']").attr('disabled','disabled');
+    }
     Vue.component('pops', {
         // 选项
         template:'<div class="pops">' +
@@ -49,7 +55,6 @@ window.onload=function() {
         },
         computed: {
             parsonInf_age: function(){
-                var date = new Date();
                 return date.getFullYear() - 1991;
             }
         },
