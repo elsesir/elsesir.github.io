@@ -85,9 +85,7 @@ div, p {
 .main-part > div:hover {
     background-color: #f5f7fe;
 }
-.main-part > div {
-    padding-left: 10px;
-}
+
 /*照片显示*/
 
 
@@ -101,7 +99,6 @@ div, p {
     flex-basis: auto;
     margin-left: 10%;
     padding: 0;
-
 }
 .self-information > div:hover {
     background-color: #f5f7fe;
@@ -246,6 +243,9 @@ ul {
         background: url(http://ou2blo0sw.bkt.clouddn.com/me.jpg) no-repeat center center;
         background-size: 66%;
     }
+    .main-part > div {
+        padding-left: 10px;
+    }
     .pop-content {
         position: absolute;
         top: 50%;
@@ -271,6 +271,10 @@ ul {
     h1 {
         margin: 0;
         padding: 0;
+    }
+    .page-title {
+        font-size: 20px;
+        line-height: 48px;
     }
     .title-part span {
         padding: 0 5px 0 5px;
@@ -299,6 +303,7 @@ ul {
         border-radius: 50%;
         margin: 0;
     }
+
     #parson-name {
         position: absolute;
         top: 20px;
@@ -314,8 +319,12 @@ ul {
     }
     .self-information {
         margin: 0;
-        margin-top: 90px;
-        padding-left: 25px
+        margin-top: 70px;
+        padding: 20px;
+    }
+    .main-part > div {
+        padding: 10px 0;
+        border-top: 1px solid #fff;
     }
     .pop-content {
         width: 84%;
