@@ -42,7 +42,7 @@ body {
 }
 
 #information-part {
-    border-right: 10px solid #ffffff;
+    /*border-right: 10px solid #ffffff;*/
 }
 
 .main-part > div:hover {
@@ -80,4 +80,10 @@ a:hover,a:active {
 }
 .pop-content {
     background-color: #9fddfc;
+}
+@media all and (max-device-width:1200px) {
+    .title-part span {
+        padding: 0 5px 0 5px;
+        border: none;
+    }
 }

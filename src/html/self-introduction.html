@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>申阿瑟-个人网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="../css/self-introduction.css" rel="stylesheet" type="text/css">
-    <link title="summer" href="../css/theme_summer.css" rel="stylesheet" type="text/css" disabled="disabled">
+    <link title="summer" href="../css/theme_summer.css" rel="stylesheet" type="text/css">
     <!--<link title="spring" href="../css/theme_spring.css" rel="stylesheet" type="text/css">-->
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="../js/self-introduction.js" type="text/javascript"></script>
@@ -40,25 +41,25 @@
         <div id="information-part">
             <div id="my-photo"></div>
             <div class="self-information" v-cloak>
-                <div id="parson-name">{{ parsonInf.name }}</div>
+                <p id="parson-name">{{ parsonInf.name }}</p>
                 <div id="sex-age-location" class="tagImg">
-                    <div>{{ parsonInf.sex }}</div>
-                    <div>{{ parsonInf_age }}</div>
-                    <div>{{ parsonInf.location }}</div>
+                    <p>{{ parsonInf.sex }}</p>
+                    <p>{{ parsonInf_age }}</p>
+                    <p>{{ parsonInf.location }}</p>
                 </div>
-                <div title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</div>
-                <div title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</div>
-                <div title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</div>
-                <div title="E-mail地址" id="e-mail" class="tagImg">
-                    <a href="Mailto:shenase@foxmail.com">{{ parsonInf.email }}</a></div>
-                <div title="GitHub地址" id="github-address" class="tagImg">
+                <p title="最高学历" id="highest-education" class="tagImg">{{ parsonInf.highestEducation }}</p>
+                <p title="毕业时间" id="graduation-time" class="tagImg">{{ parsonInf.graduationTime }}</p>
+                <p title="电话号码" id="phone-num" class="tagImg">{{ parsonInf.phoneNum }}</p>
+                <p title="E-mail地址" id="e-mail" class="tagImg">
+                    <a href="Mailto:shenase@foxmail.com">{{ parsonInf.email }}</a></p>
+                <p title="GitHub地址" id="github-address" class="tagImg">
                     <a v-bind:href="parsonInf.github">
                         {{ parsonInf.github }}
                     </a>
-                </div>
-                <div title="个人主页地址" id="blog-address" class="tagImg">
+                </p>
+                <p title="个人主页地址" id="blog-address" class="tagImg">
                     <a v-bind:href="parsonInf.blog">{{ parsonInf.blog }}</a>
-                </div>
+                </p>
             </div>
         </div>
         <div class="main-part">

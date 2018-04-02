@@ -3,11 +3,11 @@
  */
 window.onload=function() {
     var date = new Date();
-    var month = date.getMonth();
-    if(month > 2 && month < 12 ) {
-        $("link[title='summer']").removeAttr("disabled");
-        // $("link[title='spring']").attr('disabled','disabled');
-    }
+    // var month = date.getMonth();
+    // if(month > 2 && month < 12 ) {
+    //     $("link[title='summer']").removeAttr("disabled");
+    //     // $("link[title='spring']").attr('disabled','disabled');
+    // }
     Vue.component('pops', {
         // 选项
         template:'<div class="pops">' +

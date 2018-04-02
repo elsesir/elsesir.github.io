@@ -82,3 +82,9 @@ a:hover,a:active {
 .pop-content {
     background-color: #e2e4eb;
 }
+@media all and (max-device-width:1200px) {
+    .title-part span {
+        padding: 0 5px 0 5px;
+        border: none;
+    }
+}
