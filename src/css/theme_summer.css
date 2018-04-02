@@ -70,16 +70,6 @@ a:hover,a:active {
     color: #FF534D;
 }
 
-.details_content {
-    background-color: #CAECFC ;
-    border:1px solid #D1E0ED;
-}
-#details:hover {
-    background: #CAECFC;
-}
-.mark {
-    background: #ebedf4;
-}
 .close {
     color: #25C6FC;
 }
@@ -87,7 +77,9 @@ a:hover,a:active {
     color: #FF534D;
     cursor: pointer;
 }
-}
 .click-line:hover {
     color: #FF534D;
+}
+.pop-content {
+    background-color: #9fddfc;
 }

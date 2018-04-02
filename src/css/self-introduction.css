@@ -208,11 +208,6 @@ a:hover,a:active {
     cursor: pointer;
 }
 
-.title-education {
-    border-bottom: 1px solid #000000;
-    font-weight: bolder;
-}
-
 ul {
     padding: 0;
     margin: 0;
@@ -248,11 +243,12 @@ ul {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    background-color: #9fddfc;
+    background-color: #e2e4eb;
     padding: 10px 20px;
     width: 60%;
     border-radius: 12px;
     line-height: 1.5;
+    border: 1px solid #f5f7fe;
 }
 .pop-content span {
     font-weight: bold;
