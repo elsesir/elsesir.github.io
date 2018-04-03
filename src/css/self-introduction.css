@@ -209,13 +209,14 @@ ul {
     font-size: 18px;
     border-radius: 0;
 }
+
 @media screen and (min-device-width:1200px) {
     .title-part span {
         padding: 0 5px 0 5px;
         border: 1px solid #ffffff;
     }
     .all-body {
-        min-width: 720px;
+        min-width: 820px;
         width:76%;
         position: relative;
         left: 50%;
@@ -256,7 +257,11 @@ ul {
         border-radius: 12px;
         line-height: 1.5;
     }
-
+    .themes {
+        position: absolute;
+        top: 5px;
+        right: -90px;
+    }
 }
 @media all and (max-device-width:1200px) {
    html, body, div {
@@ -337,5 +342,10 @@ ul {
         transform: translateX(-50%);
         border-radius: 12px;
         line-height: 1.5;
+    }
+    .themes {
+        position: absolute;
+        top: 100px;
+        right: 10px;
     }
 }

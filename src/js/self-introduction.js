@@ -3,11 +3,6 @@
  */
 window.onload=function() {
     var date = new Date();
-    // var month = date.getMonth();
-    // if(month > 2 && month < 12 ) {
-    //     $("link[title='summer']").removeAttr("disabled");
-    //     // $("link[title='spring']").attr('disabled','disabled');
-    // }
     Vue.component('pops', {
         // 选项
         template:'<div class="pops">' +
@@ -51,22 +46,31 @@ window.onload=function() {
                 job: '深圳云财经大数据技术有限公司'
             },
             popsShow: false,
-            popsContent: ''
+            popsContent: '',
+            themeList: [
+                {
+                    'name': '夏日海滩',
+                    'code': 'summer'
+                },
+                {
+                    'name': '粉玫瑰',
+                    'code':'rose'
+                }],
+            activeTheme: 0
         },
         computed: {
             parsonInf_age: function(){
                 return date.getFullYear() - 1991;
             }
         },
+        watch: {
+            // activeTheme: function() {
+            //     var index = this.activeTheme;
+            //     $('.themes li.theme-active').removeClass('theme-active');
+            //     $('.themes li').eq(index).addClass('theme-active');
+            // }
+        },
         methods : {
-            detail: function(){
-                document.getElementById('details').style.display='block',
-                    document.getElementById('fade').style.display='block'
-            },
-            close: function() {
-                document.getElementById('details').style.display='none';
-                $('.mark').hide();
-            },
             showPop: function() {
                 // console.log('showPop');
                 this.popsShow = true;
@@ -113,6 +117,21 @@ window.onload=function() {
                 '<p><span>主要技术：</span>使用C++和openCV 库开发，涉及图像处理，视频跟踪，行为分析，模式识别等方面。</p>'+
                 '<p><span>主要工作：</span>负责将导师提出的单目鱼目标三维定位算法通过C++编程实现，同时针对实验中一种由光学现象引起误差进行分析和实验，提出了相关消除算法，提高了整个系统的鲁棒性和精度，并最终完成了系统实现，拟写两篇论文。</p>';
                 this.showPop();
+            },
+            // summerTheme: function() {
+            //     $("link[title='summer']").removeAttr("disabled");
+            //     $("link[title='rose']").attr('disabled','disabled');
+            //     this.activeTheme = 0;
+            // },
+            // roseTheme: function() {
+            //     $("link[title='rose']").removeAttr("disabled");
+            //     $("link[title='summer']").attr('disabled','disabled');
+            //     this.activeTheme = 1;
+            // },
+            changeTheme: function(item,index){
+                this.activeTheme = index;
+                $("link[title]").attr('disabled','disabled');
+                $('link[title='+item.code+']').removeAttr('disabled');
             }
         }
     });
@@ -124,11 +143,11 @@ window.onload=function() {
             $(".tag-fiexd").hide();
         }
     });
-    $('#education').click( function() {
-        $('.mark').show();
-    });
-    $('.mark').click( function() {
-        $('.mark').hide();
-        $('.details_content').hide();
-    });
+    // $('#education').click( function() {
+    //     $('.mark').show();
+    // });
+    // $('.mark').click( function() {
+    //     $('.mark').hide();
+    //     $('.details_content').hide();
+    // });
 };

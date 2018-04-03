@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="../css/self-introduction.css" rel="stylesheet" type="text/css">
     <link title="summer" href="../css/theme_summer.css" rel="stylesheet" type="text/css">
-    <!--<link title="spring" href="../css/theme_spring.css" rel="stylesheet" type="text/css">-->
+    <link title="rose" href="../css/theme_rose.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="../js/self-introduction.js" type="text/javascript"></script>
     <script>
@@ -108,6 +108,19 @@
         <p>配色来自：<a href="http://www.peise.net/">http://www.peise.net/</a></p>
         <p>图标来自：<a href="http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/">http://www.easyicon.net/iconsearch/iconset:Business-Office-icons/</a></p>
     </div>
+    <aside class="themes">
+        <!--<ul>-->
+            <!--<li class="themes-item" :class="{'theme-active':activeTheme === 0}" @click="summerTheme()">夏日海滩</li>-->
+            <!--<li class="themes-item" :class="{'theme-active':activeTheme === 1}" @click="roseTheme">粉玫瑰</li>-->
+        <!--</ul>-->
+    </aside>
+    <aside class="themes">
+        <ul>
+            <li v-cloak class="themes-item"
+                v-for="(item,index) in themeList" @click="changeTheme(item,index)"
+                :class="{'theme-active':activeTheme === index}" >{{item.name}}</li>
+        </ul>
+    </aside>
 </div>
 </body>
 </html>

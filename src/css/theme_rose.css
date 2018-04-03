@@ -1,7 +1,6 @@
 body {
-    background: linear-gradient(to right, #aab8a3, #ebedf4, #aab8a3)
+    background: linear-gradient(to right, #aab8a3, #ebedf4, #aab8a3);
     /*background: url('../images/background_bird.png') repeat;*/
-
 }
 .tag-fiexd {
     font-family: Zapfino;
@@ -30,9 +29,6 @@ body {
     color: #f5f7fe;
 
 }
-.title-part span {
-    border: 1px solid #ffffff;
-}
 
 .title-part .back {
     color: #f5f7fe;
@@ -40,10 +36,6 @@ body {
 }
 .title-part .back:hover {
     color: #aab8a3;
-}
-
-#information-part {
-    border-right: 10px solid #ffffff;
 }
 
 .main-part > div:hover {
@@ -82,6 +74,24 @@ a:hover,a:active {
 .pop-content {
     background-color: #e2e4eb;
 }
+.themes-item{
+    background: #e2e4eb;
+    width: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff5983;
+}
+.themes-item:hover {
+    background: #ff5983;
+    cursor: pointer;
+    color: #f5f7fe;
+}
+.theme-active {
+    background: #ff5983;
+    color: #f5f7fe;
+}
+
 @media all and (max-device-width:1200px) {
     .title-part span {
         padding: 0 5px 0 5px;
